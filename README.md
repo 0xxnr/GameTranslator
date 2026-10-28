@@ -25,21 +25,22 @@ ve pencere taşındıkça takip eder. Altyazısı olmayan diyalogları dinleyip 
 PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcılarla çalışır.
 
 <p align="center">
-  <img src="assets/ekran-goruntuleri/ana-pencere.png" width="300" alt="Ana pencere: kaynak, diller, oyun profili ve canlı çeviri">
+  <img src="assets/ekran-goruntuleri/1-ana-pencere.png" width="300" alt="Ana pencere: Elgato Studio penceresinden canlı çeviri, DeepL motoru ve sesli konuşma çevirisi açık">
   &nbsp;&nbsp;
-  <img src="assets/ekran-goruntuleri/oyun-profili.png" width="490" alt="Oyun profili düzenleyici: altyazı, ek bölgeler ve ses çevirisi alanı">
+  <img src="assets/ekran-goruntuleri/2-oyun-profili.png" width="480" alt="Oyun profili düzenleyici: altyazı, üç ek bölge ve ses çevirisi alanı canlı önizleme üzerinde">
 </p>
 
 ## Özellikler
 
 | | |
 |---|---|
-| 🎯 **Yerinde çeviri** | Çeviri, orijinal altyazının üstünde aynı yerde görünür; tıklamalar oyuna geçer. |
-| 🎮 **Oyun profilleri** | Altyazı alanı, bildirim ve ipucu gibi en fazla 3 ek bölge, her bölgenin yazı boyutu. Canlı önizlemeyle çizilir. |
+| 🎯 **Yerinde çeviri** | Çeviri, orijinal altyazının üstünde aynı yerde görünür; tıklamalar oyuna geçer. Ana pencerede orijinal ve çeviri yan yana, çeviri süresi (ms) üstte görünür. |
+| 🎮 **Oyun profilleri** | Altyazı + en fazla 3 ek bölge (bildirim, görev, ipucu) + ses çevirisi alanı. Her bölgenin yazı boyutu ayrı ya da otomatik. |
+| 🔬 **Okuma ayarları** | Büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık. "OCR'a giden" görüntüyü canlı izlersin. |
 | 🗣️ **Sesli konuşma çevirisi** | Altyazısız diyalogları ve NPC sohbetlerini dinler, mor bir balonda çevirir. Konuşma tanıma cihazda çalışır. |
-| 🎨 **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı. Yazı rengi kendiliğinden uyum sağlar. |
-| 📺 **OBS ile yayın** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynak olarak ayrı yerlere konabilir. |
-| 🌐 **Çeviri motorları** | Apple (çevrimdışı, ücretsiz), DeepL, Google, Azure, LLM (OpenAI, Ollama, LM Studio), LibreTranslate. |
+| 🎨 **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Yazı rengi kendiliğinden uyum sağlar. |
+| 📺 **OBS ile yayın** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
+| 🌐 **Çeviri motorları** | Apple (çevrimdışı, ücretsiz), DeepL, Google, Azure, LLM (OpenAI, Ollama, LM Studio), Self-Hosted (LibreTranslate). |
 | ⌨️ **Genel kısayollar** | Oyun öndeyken de çalışır: ⌃⌥T başlat/durdur, ⌃⌥H yazıları gizle, ⌃⌥Y yalnızca yayında gizle. |
 | 🔄 **Otomatik güncelleme** | Yeni sürümü kendisi bulur; her güncelleme dijital imzayla doğrulanır. |
 | 🔒 **Gizlilik** | Ekran ve ses yalnızca senin Mac'inde, bellekte işlenir; kaydedilmez, gönderilmez. |
@@ -96,7 +97,7 @@ Oyunu OBS'te **Ekran Yakalama** ile alıyorsan, çift görünmesin diye Görün�
 | **Apple** (varsayılan) | Tamamen çevrimdışı ve ücretsiz. Dil paketi bir kez iner. |
 | DeepL / Google / Azure | Kendi API anahtarınla. |
 | LLM | OpenAI uyumlu her uç nokta: OpenAI, Ollama (`http://localhost:11434/v1`), LM Studio… |
-| LibreTranslate | Kendi sunucun ya da yerel ağdaki bir sunucu. |
+| Self-Hosted | LibreTranslate uyumlu kendi sunucun ya da yerel ağdaki bir sunucu. |
 
 API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 </details>
@@ -115,15 +116,85 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 | ⌘, | Ayarlar |
 </details>
 
-## Ekran görüntüleri
+## Uygulamada bir tur
 
-<p align="center">
-  <img src="assets/ekran-goruntuleri/ayarlar-motor-obs.png" width="270" alt="Ayarlar: çeviri motoru, görünüm ve OBS">
-  &nbsp;
-  <img src="assets/ekran-goruntuleri/ayarlar-obs-gorunum.png" width="270" alt="Ayarlar: OBS yazı stili">
-  &nbsp;
-  <img src="assets/ekran-goruntuleri/ayarlar-guncellemeler.png" width="270" alt="Ayarlar: izinler ve güncellemeler">
-</p>
+<table>
+<tr>
+<td width="42%"><img src="assets/ekran-goruntuleri/1-ana-pencere.png" alt="Ana pencere"></td>
+<td>
+
+### Ana pencere
+- **Yakalama kaynağı:** çevrilecek pencere (ör. Elgato Studio, PS Remote Play). **Değiştir** ile seçilir.
+- **Oyun profili** seçimi ve **Ayarla** ile okuma bölgeleri.
+- **Canlı çeviri:** okunan orijinal metin ve altında çevirisi.
+- **Oyun dili → çeviri dili** ve kullanılan **çeviri motoru** (AKTİF / AYAR GEREKLİ).
+- **Sesli konuşma çevirisi** anahtarı.
+- Üstte **OBS** ve **Bulut motoru** durumu, çeviri süresi; açık / koyu / sistem teması.
+
+</td>
+</tr>
+<tr>
+<td colspan="2"><img src="assets/ekran-goruntuleri/2-oyun-profili.png" alt="Oyun profili düzenleyici"></td>
+</tr>
+<tr>
+<td colspan="2">
+
+### Oyun profili
+Oyunun canlı görüntüsü üzerinde **Altyazı**, **Bölge 1–3** ve **Ses çevirisi** alanlarını çizersin; her bölge ayrı okunur ve ayrı çevrilir.
+Yüzde değerleriyle (Sol, Üst, Genişlik, Yükseklik) ince ayar yapılır, **Ekranda örnek göster** çevirinin oyunda nasıl duracağını gösterir.
+**Okunan metin** her bölgede neyin okunduğunu, **Seçilen bölge / OCR'a giden** önizlemeleri görüntünün nasıl işlendiğini gösterir.
+Okuma bozuksa büyütmeyi artır; arka plan karışıksa siyah-beyaz eşiklemeyi aç.
+
+</td>
+</tr>
+<tr>
+<td width="42%"><img src="assets/ekran-goruntuleri/3-ayarlar-gorunum.png" alt="Ayarlar: çeviri motoru ve görünüm"></td>
+<td>
+
+### Çeviri motoru ve görünüm
+- Motor seçimi ve API anahtarı (macOS Anahtar Zinciri'nde saklanır).
+- **Yazı arka planı:** Siyah, Beyaz, Şeffaf ya da Renk; **Kutu rengi** ve **Saydamlık**.
+- Örnek zemin üzerinde canlı önizleme. Kutu şeffaf ya da çok saydamken yazı ince siyah kenar çizgisi alır.
+
+</td>
+</tr>
+<tr>
+<td width="42%"><img src="assets/ekran-goruntuleri/4-ayarlar-obs.png" alt="Ayarlar: OBS yayın"></td>
+<td>
+
+### OBS / Yayın
+- Sunucu durumu, **bağlı yayın sayfası** sayısı ve **son gönderilen çeviri** saati.
+- **Adresi kopyala**, **Test metni gönder**, **Bağlantıyı tarayıcıda test et**.
+- **Yayında göster (⌃⌥Y):** çevirileri yalnızca yayında gizle / göster.
+- **Yazıları OBS'te ayrı yerlere koy:** Altyazı, Ses çevirisi ve Bildirimler için ayrı adresler, tek tıkla kopyala.
+- Konum (alt / orta / üst) ve yazı boyutu.
+
+</td>
+</tr>
+<tr>
+<td width="42%"><img src="assets/ekran-goruntuleri/5-ayarlar-obs-stil.png" alt="Ayarlar: OBS yazı stili"></td>
+<td>
+
+### Yayın görünümü
+- Yayındaki kutunun **rengi** ve **saydamlığı**, "Yayında böyle görünür" önizlemesi.
+- Orijinal metni, sesli konuşma çevirisini ve ek bölgeleri yayında göster / gizle.
+- **Gelişmiş:** port ve iki bilgisayarlı yayın için ağ erişimi.
+- Çeviriyi metin dosyasına da yaz (OBS Metin kaynağı için).
+
+</td>
+</tr>
+<tr>
+<td width="42%"><img src="assets/ekran-goruntuleri/6-ayarlar-kisayollar.png" alt="Ayarlar: kısayollar, izinler, güncellemeler"></td>
+<td>
+
+### Kısayollar, izinler, güncellemeler
+- Genel kısayollar: ⌃⌥T, ⌃⌥H, ⌃⌥Y.
+- **İzinler:** Ekran Kaydı ve Konuşma Tanıma durumu; eksik izin turuncu görünür, **Ayarları aç** ilgili sayfaya götürür.
+- **Güncellemeler:** yalnızca elle / otomatik denetle / otomatik indir ve kur, yüklü sürüm.
+
+</td>
+</tr>
+</table>
 
 ## Güncellemeler
 
