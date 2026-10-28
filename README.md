@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/0xxnr/GameTranslator/releases/latest"><b>⬇&nbsp; Son sürümü indir</b></a>
-  &nbsp;·&nbsp; <a href="#️-konsol-oyunlarını-anlık-çevir">Konsol oyunları</a>
+  &nbsp;·&nbsp; <a href="#konsol-oyunlari">Konsol oyunları</a>
   &nbsp;·&nbsp; <a href="#kurulum">Kurulum</a>
   &nbsp;·&nbsp; <a href="#özellikler">Özellikler</a>
   &nbsp;·&nbsp; <a href="#obs-ile-yayın"><b>OBS ile yayın</b></a>
@@ -66,6 +66,8 @@ Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline
   &nbsp;&nbsp;
   <img src="assets/ekran-goruntuleri/2-oyun-profili.png" width="480" alt="Oyun profili düzenleyici: altyazı, üç ek bölge ve ses çevirisi alanı canlı önizleme üzerinde">
 </p>
+
+<a id="konsol-oyunlari"></a>
 
 ## 🕹️ Konsol oyunlarını anlık çevir
 
