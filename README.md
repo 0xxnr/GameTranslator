@@ -61,9 +61,7 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
 
 ## OBS ile yayın
 
-Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar için ayrı bir eklenti ya da program gerekmez:
-uygulama bilgisayarında küçük bir yayın sayfası açar, OBS'e bu sayfayı **Tarayıcı kaynağı** olarak eklersin ve çeviriler
-yayına **şeffaf arka planla, canlı** düşer. İzleyiciler oyunu kendi dillerinde altyazıyla izler.
+Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar için ayrı bir eklenti ya da program gerekmez
 
 <p align="center">
   <img src="assets/obs-onizleme.png" width="720" alt="Yayında görünüm: üstte bildirim, ortada mor ses çevirisi balonu, altta altyazı çevirisi">
