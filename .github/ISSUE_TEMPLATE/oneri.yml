@@ -1,0 +1,16 @@
+name: 💡 Öneri
+description: Yeni bir özellik ya da iyileştirme öner
+labels: ["öneri"]
+body:
+  - type: textarea
+    id: oneri
+    attributes:
+      label: Ne istiyorsun?
+      description: Özelliği ve hangi durumda işine yarayacağını anlat.
+    validations:
+      required: true
+  - type: input
+    id: oyun
+    attributes:
+      label: Hangi oyun ya da platformda?
+      placeholder: "ör. PS Remote Play ile oynadığım açık dünya oyunu"

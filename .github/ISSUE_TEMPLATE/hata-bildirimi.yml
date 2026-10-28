@@ -1,0 +1,62 @@
+name: 🐞 Hata bildirimi
+description: Bir şey çalışmıyor ya da beklendiği gibi değil
+labels: ["hata"]
+body:
+  - type: markdown
+    attributes:
+      value: Bildirdiğin için teşekkürler! Önce en son sürümü kullandığından emin ol (Ayarlar › Güncellemeler › Şimdi denetle).
+  - type: textarea
+    id: ne-oldu
+    attributes:
+      label: Ne oldu?
+      description: Sorunu kısaca anlat. Ne bekliyordun, ne oldu?
+    validations:
+      required: true
+  - type: textarea
+    id: adimlar
+    attributes:
+      label: Nasıl tekrarlanır?
+      placeholder: |
+        1. Kaynak olarak … seçtim
+        2. … profilini seçtim
+        3. Çeviriyi başlattım, …
+    validations:
+      required: true
+  - type: input
+    id: surum
+    attributes:
+      label: Game Translator sürümü
+      description: Ayarlar › Hakkında
+      placeholder: "1.3.0"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS sürümü ve Mac modeli
+      placeholder: "macOS 15.4, MacBook Air M2"
+    validations:
+      required: true
+  - type: dropdown
+    id: kaynak
+    attributes:
+      label: Kaynak
+      options:
+        - PS Remote Play
+        - Elgato
+        - GeForce NOW
+        - Steam Link
+        - Tarayıcı
+        - Video oynatıcı
+        - Mac oyunu
+        - Diğer
+  - type: dropdown
+    id: motor
+    attributes:
+      label: Çeviri motoru
+      options: [Apple, DeepL, Google, Azure, LLM, LibreTranslate]
+  - type: textarea
+    id: ekler
+    attributes:
+      label: Ekran görüntüsü
+      description: Okuma sorunlarında Oyun Profili › Ayarla ekranının görüntüsü çok yardımcı olur. API anahtarı gibi gizli bilgileri paylaşma.
