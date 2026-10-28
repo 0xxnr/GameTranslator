@@ -99,7 +99,7 @@ Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar
 ### Yazıları ayrı yerlere koymak
 
 <p align="center">
-  <img src="assets/obs-sahne.jpg" width="720" alt="OBS Studio: oyun görüntüsü üzerinde Türkçe çeviri; Kaynaklar listesinde Alt Yazı, Ses ve Ek açıklama ayrı Tarayıcı kaynakları">
+  <img src="assets/obs-sahne.png" width="720" alt="OBS Studio: oyun görüntüsü üzerinde Türkçe çeviri; Kaynaklar listesinde Alt Yazı, Ses ve Ek açıklama ayrı Tarayıcı kaynakları">
   <br>
   <sub>Gerçek bir OBS sahnesi: <b>Alt Yazı</b>, <b>Ses</b> ve <b>Ek açıklama</b> ayrı Tarayıcı kaynakları olarak Elgato görüntüsünün üstünde.</sub>
 </p>
