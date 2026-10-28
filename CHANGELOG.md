@@ -2,6 +2,12 @@
 
 İndirme: [Sürümler](https://github.com/0xxnr/GameTranslator/releases)
 
+## 1.3.2 — Güncelleme denetimi düzeltmesi
+- "GitHub geçici olarak sınırladı" hatası giderildi: GitHub'ın saatlik sorgu sınırına takılınca güncelleme denetimi sınırsız yedek yoldan devam ediyor.
+
+## 1.3.1 — Yeni indirme adresi
+- Güncellemeler ve indirme sayfası yeni adresten okunuyor: github.com/0xxnr/GameTranslator.
+
 ## 1.3.0 — Yazı arka planı seçenekleri
 - **Ayarlar › Görünüm › Yazı arka planı:** çeviri yazısının arkasındaki kutu artık **Siyah**, **Beyaz**, **Şeffaf** ya da istediğin bir **Renk** olabilir.
 - **Saydamlık** kaydırıcısıyla kutuyu koyulaştırıp açabilirsin; değişiklik ekrandaki çeviriye anında yansır.
