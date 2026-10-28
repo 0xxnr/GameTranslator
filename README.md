@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/0xonurr/GameTranslator/releases/latest"><img src="https://img.shields.io/github/v/release/0xonurr/GameTranslator?label=s%C3%BCr%C3%BCm&color=7b3fe4" alt="Son sürüm"></a>
-  <a href="https://github.com/0xonurr/GameTranslator/releases"><img src="https://img.shields.io/github/downloads/0xonurr/GameTranslator/total?label=indirme&color=ff7a45" alt="Toplam indirme"></a>
+  <a href="https://github.com/0xxnr/GameTranslator/releases/latest"><img src="https://img.shields.io/github/v/release/0xxnr/GameTranslator?label=s%C3%BCr%C3%BCm&color=7b3fe4" alt="Son sürüm"></a>
+  <a href="https://github.com/0xxnr/GameTranslator/releases"><img src="https://img.shields.io/github/downloads/0xxnr/GameTranslator/total?label=indirme&color=ff7a45" alt="Toplam indirme"></a>
   <img src="https://img.shields.io/badge/macOS-15%2B-111111?logo=apple" alt="macOS 15 ve üstü">
   <img src="https://img.shields.io/badge/Apple%20silicon-M1%2B-555555" alt="Apple silicon (M1 ve üstü)">
   <img src="https://img.shields.io/badge/fiyat-%C3%BCcretsiz-2ea44f" alt="Ücretsiz">
 </p>
 
 <p align="center">
-  <a href="https://github.com/0xonurr/GameTranslator/releases/latest"><b>⬇&nbsp; Son sürümü indir</b></a>
+  <a href="https://github.com/0xxnr/GameTranslator/releases/latest"><b>⬇&nbsp; Son sürümü indir</b></a>
   &nbsp;·&nbsp; <a href="#kurulum">Kurulum</a>
   &nbsp;·&nbsp; <a href="#özellikler">Özellikler</a>
   &nbsp;·&nbsp; <a href="#sık-sorulanlar">Sık sorulanlar</a>
@@ -47,7 +47,7 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
 
 ## Kurulum
 
-1. **[Sürümler](https://github.com/0xonurr/GameTranslator/releases/latest)** sayfasından `GameTranslator-x.y.z-macOS.zip` dosyasını indir ve aç.
+1. **[Sürümler](https://github.com/0xxnr/GameTranslator/releases/latest)** sayfasından `GameTranslator-x.y.z-macOS.zip` dosyasını indir ve aç.
 2. **Game Translator.app**'i **Uygulamalar** klasörüne sürükle.
 3. İlk açılışta uygulamaya **sağ tıkla › Aç › Aç**. *(Uygulama Apple noter onaylı olmadığı için macOS bir kez sorar.)*
    Uyarı geçmezse: **Sistem Ayarları › Gizlilik ve Güvenlik** › aşağıda **Yine de Aç**.
@@ -250,7 +250,7 @@ yalnızca bu deponun herkese açık sürüm bilgisini okur; kullanıcı verisi t
 
 ## Destek ve geri bildirim
 
-- **Hata bildirimi ve öneriler:** [Issues](https://github.com/0xonurr/GameTranslator/issues/new/choose)
+- **Hata bildirimi ve öneriler:** [Issues](https://github.com/0xxnr/GameTranslator/issues/new/choose)
 - **Güvenlik açığı:** [SECURITY.md](SECURITY.md)
 
 ## Lisans

@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 🔒 Güvenlik açığı bildir
-    url: https://github.com/0xonurr/GameTranslator/security/advisories/new
+    url: https://github.com/0xxnr/GameTranslator/security/advisories/new
     about: Güvenlik sorunlarını herkese açık Issue yerine buradan gizlice bildir.
   - name: ❤ Kick'te yayınlar
     url: https://kick.com/0xonur

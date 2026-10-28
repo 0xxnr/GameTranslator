@@ -1,6 +1,6 @@
 # Sürüm notları
 
-İndirme: [Sürümler](https://github.com/0xonurr/GameTranslator/releases)
+İndirme: [Sürümler](https://github.com/0xxnr/GameTranslator/releases)
 
 ## 1.3.0 — Yazı arka planı seçenekleri
 - **Ayarlar › Görünüm › Yazı arka planı:** çeviri yazısının arkasındaki kutu artık **Siyah**, **Beyaz**, **Şeffaf** ya da istediğin bir **Renk** olabilir.

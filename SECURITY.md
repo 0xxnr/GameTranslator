@@ -2,7 +2,7 @@
 
 ## Güvenlik açığı bildirme
 Bir güvenlik açığı bulduysan lütfen herkese açık bir Issue **açma**. Bunun yerine bu deponun
-**Security › [Report a vulnerability](https://github.com/0xonurr/GameTranslator/security/advisories/new)** bölümünden gizli olarak bildir.
+**Security › [Report a vulnerability](https://github.com/0xxnr/GameTranslator/security/advisories/new)** bölümünden gizli olarak bildir.
 Açığın ne olduğunu, nasıl tekrarlanacağını ve etkilenen sürümü yaz. En kısa sürede dönüş yapılır.
 
 ## Desteklenen sürümler
