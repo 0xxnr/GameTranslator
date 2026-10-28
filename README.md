@@ -118,10 +118,10 @@ Adresin sonuna parametre ekleyerek kaynak başına ayrı stil verebilirsin:
 
 ### İpuçları
 - Oyunu OBS'te **Ekran Yakalama** ile alıyorsan Mac'teki çeviri yazıları zaten yayına girer. Çift görünmesin diye
-  Ayarlar › Görünüm › **"Çeviriyi orijinal altyazının üzerine çiz"**i kapat; yayında yalnızca Tarayıcı kaynağı kalır.
+  Ayarlar › Görünüm › **"Çeviriyi orijinal altyazının üzerine çiz"** seçeneğini kapat; yayında yalnızca Tarayıcı kaynağı kalır.
 - OBS'te yazı görünmüyorsa: kaynağın özelliklerinde **Geçerli sayfayı yenile**'ye bas, adresin doğru olduğunu ve
   Ayarlar'da "Bağlı yayın sayfası" sayısının 0'dan büyük olduğunu kontrol et.
-- **İki bilgisayarlı yayın:** Ayarlar › OBS › Gelişmiş › **Ağdaki diğer bilgisayarlar bağlanabilsin**'i aç; görünen yerel ağ
+- **İki bilgisayarlı yayın:** Ayarlar › OBS › Gelişmiş › **Ağdaki diğer bilgisayarlar bağlanabilsin** seçeneğini aç; görünen yerel ağ
   adresini yayın bilgisayarındaki OBS'e gir.
 - **Metin kaynağı tercih edenler için:** "Çeviriyi metin dosyasına da yaz" açılınca OBS **Metin (FreeType 2)** kaynağının
   "Dosyadan oku" seçeneğiyle de kullanılabilir.
