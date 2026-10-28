@@ -14,6 +14,7 @@
   <a href="https://github.com/0xxnr/GameTranslator/releases/latest"><b>⬇&nbsp; Son sürümü indir</b></a>
   &nbsp;·&nbsp; <a href="#kurulum">Kurulum</a>
   &nbsp;·&nbsp; <a href="#özellikler">Özellikler</a>
+  &nbsp;·&nbsp; <a href="#obs-ile-yayın"><b>OBS ile yayın</b></a>
   &nbsp;·&nbsp; <a href="#sık-sorulanlar">Sık sorulanlar</a>
   &nbsp;·&nbsp; <a href="CHANGELOG.md">Sürüm notları</a>
 </p>
@@ -39,7 +40,7 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
 | 🔬 **Okuma ayarları** | Büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık. "OCR'a giden" görüntüyü canlı izlersin. |
 | 🗣️ **Sesli konuşma çevirisi** | Altyazısız diyalogları ve NPC sohbetlerini dinler, mor bir balonda çevirir. Konuşma tanıma cihazda çalışır. |
 | 🎨 **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Yazı rengi kendiliğinden uyum sağlar. |
-| 📺 **OBS ile yayın** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
+| 📺 **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
 | 🌐 **Çeviri motorları** | Apple (çevrimdışı, ücretsiz), DeepL, Google, Azure, LLM (OpenAI, Ollama, LM Studio), Self-Hosted (LibreTranslate). |
 | ⌨️ **Genel kısayollar** | Oyun öndeyken de çalışır: ⌃⌥T başlat/durdur, ⌃⌥H yazıları gizle, ⌃⌥Y yalnızca yayında gizle. |
 | 🔄 **Otomatik güncelleme** | Yeni sürümü kendisi bulur; her güncelleme dijital imzayla doğrulanır. |
@@ -58,6 +59,57 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
 **Gereksinimler:** macOS 15 (Sequoia) veya üstü, Apple silicon (M1 ve üstü) işlemcili Mac. Sesli konuşma çevirisi için oyun dilinin dikte paketi
 (Sistem Ayarları › Klavye › Dikte) gerekebilir.
 
+## OBS ile yayın
+
+Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar için ayrı bir eklenti ya da program gerekmez:
+uygulama bilgisayarında küçük bir yayın sayfası açar, OBS'e bu sayfayı **Tarayıcı kaynağı** olarak eklersin ve çeviriler
+yayına **şeffaf arka planla, canlı** düşer. İzleyiciler oyunu kendi dillerinde altyazıyla izler.
+
+<p align="center">
+  <img src="assets/obs-onizleme.png" width="720" alt="Yayında görünüm: üstte bildirim, ortada mor ses çevirisi balonu, altta altyazı çevirisi">
+</p>
+
+### Neler sunar
+| | |
+|---|---|
+| 🎬 **Şeffaf yayın katmanı** | Çeviri yokken hiçbir şey görünmez; çeviri gelince yumuşak geçişle belirir ve kaybolur. |
+| 🧩 **Ayrı kaynaklar** | Altyazı, sesli konuşma çevirisi ve bildirimler üç ayrı Tarayıcı kaynağı olabilir; her birini OBS'te istediğin yere sürükle. |
+| 🎨 **Canlı stil** | Yazı boyutu, konum (alt / orta / üst), kutu rengi ve saydamlığı, orijinal metin uygulamadan anında değişir; OBS'te bir şey yapmak gerekmez. |
+| 🙈 **Yalnızca yayında gizle** | **⌃⌥Y** çevirileri yayından gizler, senin ekranında kalır (ya da tersi). |
+| 🗣️ **Ses çevirisi de yayında** | Altyazısız diyaloglar ayrı mor balonda yayına düşer. |
+| 🖥️ **İki bilgisayarlı yayın** | Yayın başka bir bilgisayardaysa, aynı ağdaki OBS de bağlanabilir. |
+| 🩺 **Bağlantı durumu** | Ayarlar'da bağlı yayın sayfası sayısı ve son gönderilen çeviri saati görünür; **Test metni gönder** ile konumu çeviri olmadan ayarlarsın. |
+
+### Kurulum (2 dakika)
+1. Game Translator › **Ayarlar › OBS / Yayın › OBS tarayıcı kaynağını etkinleştir.** Adres görünür: `http://127.0.0.1:8765/` › **Adresi kopyala**.
+2. OBS › **Kaynaklar** › **+** › **Tarayıcı** › yeni ad ver › **Tamam**.
+3. **URL** kutusuna adresi yapıştır. **Genişlik / Yükseklik** yayın çözünürlüğün olsun (ör. `1920` × `1080`). **"Yerel dosya" kapalı** kalsın › **Tamam**.
+4. Kaynağı sahnede oyun görüntüsünün **üstüne** taşı (Kaynaklar listesinde oyun kaynağının üstünde olmalı).
+5. Game Translator'da **Test metni gönder**'e bas: örnek yazı 6 saniye yayında görünür, konumu ve boyutu ayarla.
+
+### Yazıları ayrı yerlere koymak
+Ayarlar › OBS / Yayın › **Yazıları OBS'te ayrı yerlere koy** altındaki adresleri ayrı Tarayıcı kaynakları olarak ekle
+(önerilen boyut **1920 × 300**), sonra OBS'te sürükleyip kenarlarından boyutlandır. Bu durumda tek adresli kaynağı kaldır.
+
+| Kaynak | Adres |
+|---|---|
+| Altyazı | `http://127.0.0.1:8765/?only=subtitle` |
+| Ses çevirisi | `http://127.0.0.1:8765/?only=speech` |
+| Bildirimler / ek bölgeler | `http://127.0.0.1:8765/?only=zone` |
+
+Adresin sonuna parametre ekleyerek kaynak başına ayrı stil verebilirsin:
+`&size=32` (yazı boyutu), `&pos=top` (konum), `&box=e0245e&alpha=0.8` (kutu rengi ve koyuluğu), `&original=1` (orijinal metni de göster).
+
+### İpuçları
+- Oyunu OBS'te **Ekran Yakalama** ile alıyorsan Mac'teki çeviri yazıları zaten yayına girer. Çift görünmesin diye
+  Ayarlar › Görünüm › **"Çeviriyi orijinal altyazının üzerine çiz"**i kapat; yayında yalnızca Tarayıcı kaynağı kalır.
+- OBS'te yazı görünmüyorsa: kaynağın özelliklerinde **Geçerli sayfayı yenile**'ye bas, adresin doğru olduğunu ve
+  Ayarlar'da "Bağlı yayın sayfası" sayısının 0'dan büyük olduğunu kontrol et.
+- **İki bilgisayarlı yayın:** Ayarlar › OBS › Gelişmiş › **Ağdaki diğer bilgisayarlar bağlanabilsin**'i aç; görünen yerel ağ
+  adresini yayın bilgisayarındaki OBS'e gir.
+- **Metin kaynağı tercih edenler için:** "Çeviriyi metin dosyasına da yaz" açılınca OBS **Metin (FreeType 2)** kaynağının
+  "Dosyadan oku" seçeneğiyle de kullanılabilir.
+
 ## Kullanım
 
 <details>
@@ -73,20 +125,6 @@ boyutunda gösterir. Hazır profiller: Genel, Film/dizi, Küçük yazılı oyunl
 
 Profil düzenleyicide **Ses çevirisi** alanını aç ve balonun yerini seç. "Yalnızca altyazı yokken" ya da "her zaman" çalışabilir.
 Müzik ve efektler doğruluğu düşürür; en iyi sonuç diyalogların net duyulduğu sahnelerde alınır.
-</details>
-
-<details>
-<summary><b>OBS ile yayın</b></summary>
-
-<p align="center"><img src="assets/obs-onizleme.png" width="640" alt="Yayında görünüm: bildirim, ses çevirisi ve altyazı"></p>
-
-1. **Ayarlar › OBS / Yayın › OBS tarayıcı kaynağını etkinleştir.** Adres görünür: `http://127.0.0.1:8765/`
-2. OBS › Kaynaklar › **+** › **Tarayıcı**. URL'ye adresi yapıştır; genişlik/yükseklik yayın çözünürlüğün (ör. 1920 × 1080).
-3. Kaynağı sahnede oyunun üstüne koy. **Test metni gönder** ile konumu ve boyutu kontrol et.
-
-Yazı boyutu, konum, kutu rengi ve saydamlığı uygulamadan canlı değişir. Altyazı, ses çevirisi ve bildirimleri ayrı yerlere
-koymak için Ayarlar'daki üç ayrı adresi (`?only=subtitle`, `?only=speech`, `?only=zone`) ayrı Tarayıcı kaynakları olarak ekle.
-Oyunu OBS'te **Ekran Yakalama** ile alıyorsan, çift görünmesin diye Görünüm › "Çeviriyi orijinal altyazının üzerine çiz"i kapat.
 </details>
 
 <details>
