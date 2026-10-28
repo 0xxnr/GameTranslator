@@ -36,6 +36,22 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
   <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim.mp4"><b>▶ Sesli videoyu izle</b></a></sub>
 </p>
 
+### 🗺️ Altyazı dışındaki yazılar da çevrilir
+
+Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline eklediğin her bölge ayrı okunur ve ayrı çevrilir.
+
+<p align="center">
+  <img src="assets/harita-bolge-cevirisi.jpg" width="800" alt="Oyun haritasındaki İngilizce bilgi paneli Türkçe çevrilmiş olarak ekranın altında gösteriliyor">
+  <br>
+  <sub>Haritadaki İngilizce bilgi paneli okunuyor, Türkçe çevirisi başlığıyla birlikte ekranda beliriyor.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/ekran-goruntuleri/bolge-ayari.png" width="640" alt="Oyun profili düzenleyici: Bölge 1 başlığı, Bölge 2 açıklama metnini okuyor; siyah-beyaz eşikleme ve kontrast ayarları">
+  <br>
+  <sub>Aynı sahnenin profil ayarı: <b>Bölge 1</b> başlığı, <b>Bölge 2</b> açıklama metnini okuyor. Karışık zeminde <b>siyah-beyaz eşikleme</b> ve <b>kontrast</b> okumayı netleştiriyor.</sub>
+</p>
+
 <p align="center">
   <img src="assets/ekran-goruntuleri/1-ana-pencere.png" width="300" alt="Ana pencere: Elgato Studio penceresinden canlı çeviri, DeepL motoru ve sesli konuşma çevirisi açık">
   &nbsp;&nbsp;
