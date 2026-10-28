@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/0xxnr/GameTranslator/releases/latest"><b>⬇&nbsp; Son sürümü indir</b></a>
+  &nbsp;·&nbsp; <a href="#️-konsol-oyunlarını-anlık-çevir">Konsol oyunları</a>
   &nbsp;·&nbsp; <a href="#kurulum">Kurulum</a>
   &nbsp;·&nbsp; <a href="#özellikler">Özellikler</a>
   &nbsp;·&nbsp; <a href="#obs-ile-yayın"><b>OBS ile yayın</b></a>
@@ -20,6 +21,14 @@
 </p>
 
 ---
+
+<h2 align="center">🎮 Konsoldaki oyunlar artık Türkçe</h2>
+
+<p align="center">
+  <b>PlayStation, Xbox ve Nintendo Switch oyunlarını Mac'inde anlık çevir.</b><br>
+  İster <b>yapay zekâ</b> ile, ister <b>Apple'ın ücretsiz ve çevrimdışı çevirisiyle</b>.<br>
+  Türkçe desteği olmayan oyunlar, altyazısız diyaloglar, haritalar ve görev metinleri — hepsi oynarken, anında Türkçe.
+</p>
 
 **Game Translator**, oyun ekranındaki yazıyı okur, çevirir ve çeviriyi **orijinal yazının tam üstüne** çizer. Altyazı değiştikçe
 ve pencere taşındıkça takip eder. Altyazısı olmayan diyalogları dinleyip çevirebilir, çevirileri **OBS** ile yayına da gönderebilir.
@@ -57,6 +66,37 @@ Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline
   &nbsp;&nbsp;
   <img src="assets/ekran-goruntuleri/2-oyun-profili.png" width="480" alt="Oyun profili düzenleyici: altyazı, üç ek bölge ve ses çevirisi alanı canlı önizleme üzerinde">
 </p>
+
+## 🕹️ Konsol oyunlarını anlık çevir
+
+Türkçe dil seçeneği olmayan bir oyunu artık beklemeden oynayabilirsin. Konsolun görüntüsünü Mac'e getirmen yeterli;
+Game Translator ekrandaki İngilizce (ya da başka dildeki) yazıyı okur ve **Türkçesini orijinalin tam üstüne** yazar.
+Oyuna, konsola ya da hesabına hiçbir şey kurulmaz, hiçbir şey değiştirilmez: yalnızca ekranda görünen okunur.
+
+| Konsol | Mac'e nasıl gelir? |
+|---|---|
+| **PlayStation 5 / 4** | **PS Remote Play** uygulaması ya da **Elgato** gibi bir yakalama kartı |
+| **Xbox Series / One** | **Xbox** uygulamasıyla uzaktan oynatma, bulut oyun (tarayıcı) ya da yakalama kartı |
+| **Nintendo Switch** | Yakalama kartı (Elgato vb.) |
+| **Bulut oyun** | **GeForce NOW**, Xbox Cloud Gaming ve benzerleri (uygulama ya da tarayıcı) |
+| **PC / Mac oyunları** | **Steam Link**, Moonlight ya da doğrudan oyun penceresi |
+
+Kaynağı **Değiştir** ile seç, oyun profilini ayarla, **⌃⌥T** ile çeviriyi başlat. Çeviri oyun penceresini takip eder;
+oynarken başka hiçbir şeye dokunman gerekmez.
+
+## 🤖 Yapay zekâ mı, ücretsiz Apple çevirisi mi? Sen seç
+
+| | 🍎 **Apple çevirisi** | 🤖 **Yapay zekâ (LLM)** | 🌐 **DeepL · Google · Azure** |
+|---|---|---|---|
+| **Ücret** | Tamamen ücretsiz | Kendi API anahtarınla; yerel modellerle (Ollama, LM Studio) ücretsiz | Kendi API anahtarınla (ücretsiz kotaları var) |
+| **İnternet** | Gerekmez, **çevrimdışı** çalışır | Bulut modelde gerekir; yerel modelde gerekmez | Gerekir |
+| **Gizlilik** | Her şey Mac'inde kalır | Yerel modelde Mac'inde kalır | Yalnızca okunan metin sağlayıcıya gider |
+| **En iyi olduğu yer** | Hızlı, sıfır kurulumla günlük kullanım | Konuşma dili, argo, deyimler ve bağlamı daha doğal aktarma | Profesyonel, tutarlı çeviri kalitesi |
+
+- **Apple çevirisi** varsayılandır: dil paketi bir kez iner, sonra internet olmadan, ücretsiz ve sınırsız çalışır.
+- **Yapay zekâ** seçeneği OpenAI uyumlu her uç noktayla çalışır: OpenAI, **Ollama**, **LM Studio** ve benzerleri.
+  Ollama ya da LM Studio ile modeli kendi Mac'inde çalıştırırsan çeviri hem ücretsiz hem de tamamen çevrimdışı olur.
+- Motoru **Ayarlar › Çeviri motoru**'ndan istediğin an değiştirebilirsin; ana penceredeki rozet hangisinin aktif olduğunu gösterir.
 
 ## Özellikler
 
