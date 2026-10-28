@@ -258,4 +258,4 @@ yalnızca bu deponun herkese açık sürüm bilgisini okur; kullanıcı verisi t
 Ücretsiz kullanım; değiştirme, tersine mühendislik ve yeniden dağıtım yasaktır. Ayrıntılar: [LICENSE](LICENSE).
 Uygulamada ve bu sayfada adı geçen oyun ve platform adları ilgili sahiplerinin ticari markalarıdır; bu projenin onlarla bağlantısı yoktur.
 
-<p align="center"><sub>© 2026 0xonur · Game Translator</sub></p>
+<p align="center"><sub>© 2026 · Game Translator</sub></p>
