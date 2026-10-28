@@ -25,6 +25,17 @@
 ve pencere taşındıkça takip eder. Altyazısı olmayan diyalogları dinleyip çevirebilir, çevirileri **OBS** ile yayına da gönderebilir.
 PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcılarla çalışır.
 
+### 🎬 Oyunda nasıl görünüyor?
+
+<p align="center">
+  <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim.mp4">
+    <img src="assets/tanitim.webp" width="800" alt="Oyun içi tanıtım: Türkçe çeviri, orijinal İngilizce altyazının hemen üstünde canlı görünüyor">
+  </a>
+  <br>
+  <sub>İngilizce diyaloglar oynarken Türkçe çeviri, orijinal altyazının üstünde anında beliriyor.
+  <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim.mp4"><b>▶ Sesli videoyu izle</b></a></sub>
+</p>
+
 <p align="center">
   <img src="assets/ekran-goruntuleri/1-ana-pencere.png" width="300" alt="Ana pencere: Elgato Studio penceresinden canlı çeviri, DeepL motoru ve sesli konuşma çevirisi açık">
   &nbsp;&nbsp;
