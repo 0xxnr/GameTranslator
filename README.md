@@ -181,7 +181,7 @@ yalnızca bu deponun herkese açık sürüm bilgisini okur; kullanıcı verisi t
 
 - **Hata bildirimi ve öneriler:** [Issues](https://github.com/0xonurr/GameTranslator/issues/new/choose)
 - **Güvenlik açığı:** [SECURITY.md](SECURITY.md)
-- **Yayınlar:** [kick.com/0xonur](https://kick.com/0xonur) ❤
+- **Yayınlar:** [kick.com/0xonur](https://kick.com/0xonur)
 
 ## Lisans
 
