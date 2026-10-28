@@ -97,6 +97,13 @@ Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar
 5. Game Translator'da **Test metni gönder**'e bas: örnek yazı 6 saniye yayında görünür, konumu ve boyutu ayarla.
 
 ### Yazıları ayrı yerlere koymak
+
+<p align="center">
+  <img src="assets/obs-sahne.jpg" width="720" alt="OBS Studio: oyun görüntüsü üzerinde Türkçe çeviri; Kaynaklar listesinde Alt Yazı, Ses ve Ek açıklama ayrı Tarayıcı kaynakları">
+  <br>
+  <sub>Gerçek bir OBS sahnesi: <b>Alt Yazı</b>, <b>Ses</b> ve <b>Ek açıklama</b> ayrı Tarayıcı kaynakları olarak Elgato görüntüsünün üstünde.</sub>
+</p>
+
 Ayarlar › OBS / Yayın › **Yazıları OBS'te ayrı yerlere koy** altındaki adresleri ayrı Tarayıcı kaynakları olarak ekle
 (önerilen boyut **1920 × 300**), sonra OBS'te sürükleyip kenarlarından boyutlandır. Bu durumda tek adresli kaynağı kaldır.
 
