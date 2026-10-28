@@ -45,6 +45,15 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
   <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim.mp4"><b>▶ Sesli videoyu izle</b></a></sub>
 </p>
 
+<p align="center">
+  <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim-2.mp4">
+    <img src="assets/tanitim-2.webp" width="800" alt="Oyun içi diyalog sahnesi: her replik Türkçe çevirisiyle, orijinal İngilizce altyazının üstünde">
+  </a>
+  <br>
+  <sub>Uzun bir diyalog sahnesi: karakter adıyla birlikte her replik anında Türkçe.
+  <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim-2.mp4"><b>▶ Sesli videoyu izle (1 dk)</b></a></sub>
+</p>
+
 ### 🗺️ Altyazı dışındaki yazılar da çevrilir
 
 Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline eklediğin her bölge ayrı okunur ve ayrı çevrilir.
