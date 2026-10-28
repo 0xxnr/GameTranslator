@@ -78,7 +78,7 @@ Oyuna, konsola ya da hesabına hiçbir şey kurulmaz, hiçbir şey değiştirilm
 | Konsol | Mac'e nasıl gelir? |
 |---|---|
 | **PlayStation 5 / 4** | **PS Remote Play** uygulaması ya da **Elgato** gibi bir yakalama kartı |
-| **Xbox Series / One** | **Xbox** uygulamasıyla uzaktan oynatma, bulut oyun (tarayıcı) ya da yakalama kartı |
+| **Xbox Series / One** | Tarayıcıda **xbox.com/play** üzerinden uzaktan oynatma ya da bulut oyun, veya yakalama kartı |
 | **Nintendo Switch** | Yakalama kartı (Elgato vb.) |
 | **Bulut oyun** | **GeForce NOW**, Xbox Cloud Gaming ve benzerleri (uygulama ya da tarayıcı) |
 | **PC / Mac oyunları** | **Steam Link**, Moonlight ya da doğrudan oyun penceresi |
