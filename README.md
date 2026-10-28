@@ -90,9 +90,6 @@ Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline
 
 Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar için ayrı bir eklenti ya da program gerekmez
 
-<p align="center">
-  <img src="assets/obs-onizleme.png" width="720" alt="Yayında görünüm: üstte bildirim, ortada mor ses çevirisi balonu, altta altyazı çevirisi">
-</p>
 
 ### Neler sunar
 | | |
