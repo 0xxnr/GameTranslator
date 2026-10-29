@@ -81,9 +81,9 @@ Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline
 </p>
 
 <p align="center">
-  <img src="assets/ekran-goruntuleri/1-ana-pencere.png" width="300" alt="Ana pencere: Elgato Studio penceresinden canlı çeviri, DeepL motoru ve sesli konuşma çevirisi açık">
+  <img src="assets/ekran-goruntuleri/ana-pencere.png" width="300" alt="Ana pencere: Elgato Studio penceresi kaynak olarak seçili, Apple çeviri motoru aktif, sesli konuşma çevirisi açık">
   &nbsp;&nbsp;
-  <img src="assets/ekran-goruntuleri/2-oyun-profili.png" width="480" alt="Oyun profili düzenleyici: altyazı, üç ek bölge ve ses çevirisi alanı canlı önizleme üzerinde">
+  <img src="assets/ekran-goruntuleri/oyun-profili.png" width="480" alt="Oyun profili düzenleyici: altyazı, üç ek bölge ve ses çevirisi alanı canlı önizleme üzerinde">
 </p>
 
 <a id="konsol-oyunlari"></a>
@@ -270,79 +270,126 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 
 ## Uygulamada bir tur
 
+<sub>Ekran görüntüleri macOS sürümünden alınmıştır. Windows sürümü aynı bölümleri ve ayarları sunar; kısayollarda ⌃⌥ yerine Ctrl+Alt kullanılır.</sub>
+
 <table>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/1-ana-pencere.png" alt="Ana pencere"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ana-pencere.png" alt="Ana pencere"></td>
 <td>
 
 ### Ana pencere
-- **Yakalama kaynağı:** çevrilecek pencere (ör. Elgato Studio, PS Remote Play). **Değiştir** ile seçilir.
-- **Oyun profili** seçimi ve **Ayarla** ile okuma bölgeleri.
-- **Canlı çeviri:** okunan orijinal metin ve altında çevirisi.
-- **Oyun dili → çeviri dili** ve kullanılan **çeviri motoru** (AKTİF / AYAR GEREKLİ).
+- **Başlık:** OBS yayın durumu ve çeviri motorunun türü (ör. **Çevrimdışı**).
+- **Tema** (açık / koyu / sistem), **Ayarlar** ve son çevirinin süresi.
+- **Yakalama kaynağı:** çevrilecek pencere (ör. *Pencere: Elgato Studio*), **Değiştir** ile seçilir.
+- **Oyun profili** seçimi; **Ayarla** okuma bölgelerini ve görüntü işlemeyi açar.
+- **Canlı çeviri:** okunan orijinal metin ve altında çevirisi; durum (ör. *Durduruldu*).
+- **Oyun dili → çeviri dili** ve hızlı motor seçimi: Apple, DeepL, Azure, Google, LLM, Self-Hosted.
+- **Çeviri motoru** kartı: seçili motor ve durumu (**AKTİF** / **AYAR GEREKLİ**).
 - **Sesli konuşma çevirisi** anahtarı.
-- Üstte **OBS** ve **Bulut motoru** durumu, çeviri süresi; açık / koyu / sistem teması.
+- Yeni sürüm çıktığında **Ayrıntılar** düğmeli bilgi şeridi.
 
 </td>
 </tr>
 <tr>
-<td colspan="2"><img src="assets/ekran-goruntuleri/2-oyun-profili.png" alt="Oyun profili düzenleyici"></td>
+<td colspan="2"><img src="assets/ekran-goruntuleri/oyun-profili.png" alt="Oyun profili düzenleyici"></td>
 </tr>
 <tr>
 <td colspan="2">
 
 ### Oyun profili
-Oyunun canlı görüntüsü üzerinde **Altyazı**, **Bölge 1–3** ve **Ses çevirisi** alanlarını çizersin; her bölge ayrı okunur ve ayrı çevrilir.
-Yüzde değerleriyle (Sol, Üst, Genişlik, Yükseklik) ince ayar yapılır, **Ekranda örnek göster** çevirinin oyunda nasıl duracağını gösterir.
-**Okunan metin** her bölgede neyin okunduğunu, **Seçilen bölge / OCR'a giden** önizlemeleri görüntünün nasıl işlendiğini gösterir.
-Okuma bozuksa büyütmeyi artır; arka plan karışıksa siyah-beyaz eşiklemeyi aç.
+- **Bölgeler:** Altyazı, Bölge 1–3 ve Ses çevirisi; her biri kendi rengiyle canlı görüntü üzerinde. Seçili bölgenin adı sağ üstten değiştirilir.
+- **Çizim:** seçili bölge için sürükleyerek yeni dikdörtgen çizilir, ⌥ (Option) basılıyken sürüklenince bölge taşınır.
+- **İnce ayar:** Sol, Üst, Genişlik ve Yükseklik yüzde olarak adım adım ayarlanır.
+- **Yazı boyutu:** bölge başına otomatik ya da elle; **Ekranda örnek göster** çevirinin oyunda nasıl duracağını gösterir.
+- **Okunan metin:** her bölgede okunan yazı ve ses seviyesiyle birlikte son duyulan konuşma.
+- **Seçilen bölge / OCR'a giden:** ham görüntü ve okumaya giden işlenmiş görüntü yan yana.
+- **Okuma ayarları** (tüm bölgeler için): büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık.
+- Yerleşik profil düzenlenince **kopya olarak kaydedilir**; **Sıfırla** değişiklikleri geri alır.
 
 </td>
 </tr>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/3-ayarlar-gorunum.png" alt="Ayarlar: çeviri motoru ve görünüm"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-ceviri-gorunum.png" alt="Ayarlar: çeviri motoru ve görünüm"></td>
 <td>
 
 ### Çeviri motoru ve görünüm
-- Motor seçimi ve API anahtarı (macOS Anahtar Zinciri'nde saklanır).
-- **Yazı arka planı:** Siyah, Beyaz, Şeffaf ya da Renk; **Kutu rengi** ve **Saydamlık**.
-- Örnek zemin üzerinde canlı önizleme. Kutu şeffaf ya da çok saydamken yazı ince siyah kenar çizgisi alır.
+- **Motor** seçimi ve kısa açıklaması (ör. Apple: cihaz içi ve ücretsiz, internet gerekmez).
+- **Çeviriyi orijinal altyazının üzerine çiz:** ekrandaki çeviri katmanını açıp kapatır.
+- **Yazı tipi** ve **Kalınlık** (Normal'den Çok kalın'a).
+- **Yazı arka planı:** Siyah, Beyaz, Şeffaf ya da Renk; **Saydamlık** kaydırıcısı.
+- Örnek zemin üzerinde **canlı önizleme**. Yazı rengi kutunun rengine göre kendiliğinden beyaz ya da siyah olur.
 
 </td>
 </tr>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/4-ayarlar-obs.png" alt="Ayarlar: OBS yayın"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-yazi-tipi.png" alt="Ayarlar: yazı tipi seçimi"></td>
+<td>
+
+### Yazı tipi
+- Hazır seçenekler: **Sistem (SF Pro)**, **Yuvarlak (SF Pro Rounded)**, **Serif (New York)**, **Eş aralıklı (SF Mono)**.
+- **Bilgisayardaki yazı tipleri:** yüklü tüm yazı tipleri arasından seçim.
+- **Yazı tipi dosyası ekle:** kendi .ttf ya da .otf dosyan.
+- Seçilen yazı tipi ekrandaki çeviride, ses balonunda ve OBS yayınında aynı anda kullanılır.
+
+</td>
+</tr>
+<tr>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-obs.png" alt="Ayarlar: OBS yayın"></td>
 <td>
 
 ### OBS / Yayın
-- Sunucu durumu, **bağlı yayın sayfası** sayısı ve **son gönderilen çeviri** saati.
-- **Adresi kopyala**, **Test metni gönder**, **Bağlantıyı tarayıcıda test et**.
+- **OBS tarayıcı kaynağını etkinleştir** ve sunucu **durumu** (ör. *Çalışıyor · port 8765*).
+- **Bağlı yayın sayfası** ve **son gönderilen çeviri**; OBS bağlanmamışsa ne yapılacağı yazılır.
+- Yayın adresi; **Adresi kopyala**, **Test metni gönder**, **Bağlantıyı tarayıcıda test et**.
 - **Yayında göster (⌃⌥Y):** çevirileri yalnızca yayında gizle / göster.
-- **Yazıları OBS'te ayrı yerlere koy:** Altyazı, Ses çevirisi ve Bildirimler için ayrı adresler, tek tıkla kopyala.
-- Konum (alt / orta / üst) ve yazı boyutu.
+- **Yazıları OBS'te ayrı yerlere koy:** Altyazı, Ses çevirisi ve Bildirimler / ek bölgeler için ayrı adresler, her biri tek tıkla kopyalanır.
 
 </td>
 </tr>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/5-ayarlar-obs-stil.png" alt="Ayarlar: OBS yazı stili"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-obs-stil.png" alt="Ayarlar: OBS yayın görünümü"></td>
 <td>
 
 ### Yayın görünümü
-- Yayındaki kutunun **rengi** ve **saydamlığı**, "Yayında böyle görünür" önizlemesi.
-- Orijinal metni, sesli konuşma çevirisini ve ek bölgeleri yayında göster / gizle.
-- **Gelişmiş:** port ve iki bilgisayarlı yayın için ağ erişimi.
-- Çeviriyi metin dosyasına da yaz (OBS Metin kaynağı için).
+- **Konum** (Alt / Orta / Üst) ve **Yazı boyutu** (px).
+- **Arka plan** (ör. Kutu), **Kutu rengi** ve **Saydamlık**; "Yayında böyle görünür" önizlemesi.
+- **Orijinal metni de göster**, **Sesli konuşma çevirisini göster**, **Ek bölgeleri göster**.
+- **Gelişmiş:** port ve ağdaki diğer bilgisayarların bağlanması (iki bilgisayarlı yayın).
+- **Çeviriyi metin dosyasına da yaz:** OBS Metin kaynağı için.
 
 </td>
 </tr>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/6-ayarlar-kisayollar.png" alt="Ayarlar: kısayollar, izinler, güncellemeler"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-ses-kisayollar.png" alt="Ayarlar: sesli konuşma çevirisi, kısayollar, izinler"></td>
 <td>
 
-### Kısayollar, izinler, güncellemeler
-- Genel kısayollar: ⌃⌥T, ⌃⌥H, ⌃⌥Y.
-- **İzinler:** Ekran Kaydı ve Konuşma Tanıma durumu; eksik izin turuncu görünür, **Ayarları aç** ilgili sayfaya götürür.
-- **Güncellemeler:** yalnızca elle / otomatik denetle / otomatik indir ve kur, yüklü sürüm.
+### Ses çevirisi, kısayollar ve izinler
+- **Sesli konuşmaları çevir:** çevirinin yeri ve zamanı her oyun profilinde ayrı ayarlanır.
+- **Genel kısayollar:** ⌃⌥T çeviriyi başlat / durdur, ⌃⌥H çeviri yazılarını gizle / göster, ⌃⌥Y yayında gizle / göster. Uygulama içinde ⌘R, ⌘K ve ⇧⌘P.
+- **İzinler:** Ekran Kaydı ve Konuşma Tanıma durumu; eksik izinde **Ayarları aç** ilgili sistem ayarına götürür.
+
+</td>
+</tr>
+<tr>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-guncellemeler.png" alt="Ayarlar: güncellemeler ve hakkında"></td>
+<td>
+
+### Güncellemeler ve hakkında
+- **Güncelleme** tercihi: yalnızca elle denetle, otomatik denetle ve haber ver ya da otomatik indir ve kur.
+- **Yüklü sürüm**, **son denetim** zamanı, **Şimdi denetle** ve **Sürüm sayfası**.
+- Güncellemeler dijital imzayla doğrulanır; imzası tutmayan dosya kurulmaz.
+- **Hakkında:** sürüm, lisans ve geliştirici bağlantısı.
+
+</td>
+</tr>
+<tr>
+<td width="42%"><img src="assets/ekran-goruntuleri/guncelleme-penceresi.png" alt="Güncelleme penceresi"></td>
+<td>
+
+### Uygulama içi güncelleme
+- Yeni sürüm bulunduğunda **yenilikler** listesiyle birlikte gösterilir.
+- Dosya **indirilir ve doğrulanır**; ilerleme hem pencerede hem ana penceredeki şeritte görünür.
+- **Gizle** ile pencere kapatılır, indirme arka planda sürer.
 
 </td>
 </tr>
