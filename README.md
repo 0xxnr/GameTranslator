@@ -322,14 +322,16 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 </td>
 </tr>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-yazi-tipi.png" alt="Ayarlar: yazı tipi seçimi"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-yazi-tipleri.png" alt="Ayarlar: eklenen yazı tipleri ve canlı önizleme"></td>
 <td>
 
-### Yazı tipi
-- Hazır seçenekler: **Sistem (SF Pro)**, **Yuvarlak (SF Pro Rounded)**, **Serif (New York)**, **Eş aralıklı (SF Mono)**.
-- **Bilgisayardaki yazı tipleri:** yüklü tüm yazı tipleri arasından seçim.
-- **Yazı tipi dosyası ekle:** kendi .ttf ya da .otf dosyan.
-- Seçilen yazı tipi ekrandaki çeviride, ses balonunda ve OBS yayınında aynı anda kullanılır.
+### Yazı tipleri
+- **Yazı tipi:** hazır seçenekler, bilgisayarda yüklü yazı tipleri ya da kendi eklediğin bir yazı tipi seçilir.
+- **Kendi yazı tipini ekle:** .ttf ya da .otf dosyası eklenebilir. Dosya yalnızca uygulamaya eklenir, sisteme kurulmaz.
+- **Eklenen yazı tipleri** listesinde her yazı tipi kendi görünümüyle ve dosya adıyla görünür; çöp kutusu simgesiyle tek tıkla kaldırılır.
+- **Kalınlık** ayrıca seçilir.
+- Seçilen yazı tipi **canlı önizlemede** hemen görünür; ekrandaki çeviride, ses balonunda ve **OBS yayınında** aynı anda kullanılır.
+  Eklenen dosyayı uygulama yayın sayfasına kendisi sunar; iki bilgisayarlı yayında da aynı yazı tipi görünür.
 
 </td>
 </tr>
