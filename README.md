@@ -29,7 +29,7 @@
 
 ---
 
-<h2 align="center">🎮 Konsoldaki oyunlar artık Türkçe</h2>
+<h2 align="center">Konsoldaki oyunlar artık Türkçe</h2>
 
 <p align="center">
   <b>PlayStation, Xbox ve Nintendo Switch oyunlarını Mac'inde ya da Windows PC'nde anlık çevir.</b><br>
@@ -41,10 +41,10 @@
 ve pencere taşındıkça takip eder. Altyazısı olmayan diyalogları dinleyip çevirebilir, çevirileri **OBS** ile yayına da gönderebilir.
 PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcılarla çalışır.
 
-> 🍎 **macOS** (Apple silicon) ve 🪟 **Windows 10 / 11** sürümleri var; ikisi de ücretsiz ve aynı özellikleri sunar.
+> **macOS** (Apple silicon) ve **Windows 10 / 11** sürümleri var; ikisi de ücretsiz ve aynı özellikleri sunar.
 > Windows'taki küçük farklar için [Windows'ta kurulum](#windowsta-kurulum) bölümüne bak.
 
-### 🎬 Oyunda nasıl görünüyor?
+### Oyunda nasıl görünüyor?
 
 <p align="center">
   <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim.mp4">
@@ -52,7 +52,7 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
   </a>
   <br>
   <sub>İngilizce diyaloglar oynarken Türkçe çeviri, orijinal altyazının üstünde anında beliriyor.
-  <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim.mp4"><b>▶ Sesli videoyu izle</b></a></sub>
+  <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim.mp4"><b>Sesli videoyu izle</b></a></sub>
 </p>
 
 <p align="center">
@@ -61,10 +61,10 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
   </a>
   <br>
   <sub>Uzun bir diyalog sahnesi: karakter adıyla birlikte her replik anında Türkçe.
-  <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim-2.mp4"><b>▶ Sesli videoyu izle (1 dk)</b></a></sub>
+  <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim-2.mp4"><b>Sesli videoyu izle (1 dk)</b></a></sub>
 </p>
 
-### 🗺️ Altyazı dışındaki yazılar da çevrilir
+### Altyazı dışındaki yazılar da çevrilir
 
 Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline eklediğin her bölge ayrı okunur ve ayrı çevrilir.
 
@@ -88,7 +88,7 @@ Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline
 
 <a id="konsol-oyunlari"></a>
 
-## 🕹️ Konsol oyunlarını anlık çevir
+## Konsol oyunlarını anlık çevir
 
 Türkçe dil seçeneği olmayan bir oyunu artık beklemeden oynayabilirsin. Konsolun görüntüsünü Mac'e getirmen yeterli;
 Game Translator ekrandaki İngilizce (ya da başka dildeki) yazıyı okur ve **Türkçesini orijinalin tam üstüne** yazar.
@@ -105,9 +105,9 @@ Oyuna, konsola ya da hesabına hiçbir şey kurulmaz, hiçbir şey değiştirilm
 Kaynağı **Değiştir** ile seç, oyun profilini ayarla, **⌃⌥T** ile çeviriyi başlat. Çeviri oyun penceresini takip eder;
 oynarken başka hiçbir şeye dokunman gerekmez.
 
-## 🤖 Yapay zekâ mı, ücretsiz Apple çevirisi mi? Sen seç
+## Çeviri motoru seçimi: yapay zekâ ya da ücretsiz Apple çevirisi
 
-| | 🍎 **Apple çevirisi** | 🤖 **Yapay zekâ (LLM)** | 🌐 **DeepL · Google · Azure** |
+| | **Apple çevirisi** | **Yapay zekâ (LLM)** | **DeepL · Google · Azure** |
 |---|---|---|---|
 | **Ücret** | Tamamen ücretsiz | Kendi API anahtarınla; yerel modellerle (Ollama, LM Studio) ücretsiz | Kendi API anahtarınla (ücretsiz kotaları var) |
 | **İnternet** | Gerekmez, **çevrimdışı** çalışır | Bulut modelde gerekir; yerel modelde gerekmez | Gerekir |
@@ -123,18 +123,18 @@ oynarken başka hiçbir şeye dokunman gerekmez.
 
 | | |
 |---|---|
-| 🎯 **Yerinde çeviri** | Çeviri, orijinal altyazının üstünde aynı yerde görünür; tıklamalar oyuna geçer. Ana pencerede orijinal ve çeviri yan yana, çeviri süresi (ms) üstte görünür. |
-| 🎮 **Oyun profilleri** | Altyazı + en fazla 3 ek bölge (bildirim, görev, ipucu) + ses çevirisi alanı. Her bölgenin yazı boyutu ayrı ya da otomatik. |
-| 🔬 **Okuma ayarları** | Büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık. "OCR'a giden" görüntüyü canlı izlersin. |
-| 🗣️ **Sesli konuşma çevirisi** | Altyazısız diyalogları ve NPC sohbetlerini dinler, mor bir balonda çevirir. Konuşma tanıma cihazda çalışır. |
-| 🔤 **Yazı tipi** | Hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf/.otf dosyan; kalınlık ayarı. Ekranda ve OBS'te aynı yazı tipi. |
-| 🎨 **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Yazı rengi kendiliğinden uyum sağlar. |
-| 📺 **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
-| 🌐 **Çeviri motorları** | Apple (çevrimdışı, ücretsiz), DeepL, Google, Azure, LLM (OpenAI, Ollama, LM Studio), Self-Hosted (LibreTranslate). |
-| ⌨️ **Genel kısayollar** | Oyun öndeyken de çalışır: ⌃⌥T başlat/durdur, ⌃⌥H yazıları gizle, ⌃⌥Y yalnızca yayında gizle (Windows'ta Ctrl+Alt+T / H / Y). |
-| 🪟 **macOS ve Windows** | Aynı arayüz, aynı oyun profilleri, aynı OBS yayın sayfası; ikisi de otomatik güncellenir. |
-| 🔄 **Otomatik güncelleme** | Yeni sürümü kendisi bulur; her güncelleme dijital imzayla doğrulanır. |
-| 🔒 **Gizlilik** | Ekran ve ses yalnızca senin bilgisayarında, bellekte işlenir; kaydedilmez, gönderilmez. |
+| **Yerinde çeviri** | Çeviri, orijinal altyazının üstünde aynı yerde görünür; tıklamalar oyuna geçer. Ana pencerede orijinal ve çeviri yan yana, çeviri süresi (ms) üstte görünür. |
+| **Oyun profilleri** | Altyazı + en fazla 3 ek bölge (bildirim, görev, ipucu) + ses çevirisi alanı. Her bölgenin yazı boyutu ayrı ya da otomatik. |
+| **Okuma ayarları** | Büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık. "OCR'a giden" görüntüyü canlı izlersin. |
+| **Sesli konuşma çevirisi** | Altyazısız diyalogları ve NPC sohbetlerini dinler, mor bir balonda çevirir. Konuşma tanıma cihazda çalışır. |
+| **Yazı tipi** | Hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf/.otf dosyan; kalınlık ayarı. Ekranda ve OBS'te aynı yazı tipi. |
+| **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Yazı rengi kendiliğinden uyum sağlar. |
+| **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
+| **Çeviri motorları** | Apple (çevrimdışı, ücretsiz), DeepL, Google, Azure, LLM (OpenAI, Ollama, LM Studio), Self-Hosted (LibreTranslate). |
+| **Genel kısayollar** | Oyun öndeyken de çalışır: ⌃⌥T başlat/durdur, ⌃⌥H yazıları gizle, ⌃⌥Y yalnızca yayında gizle (Windows'ta Ctrl+Alt+T / H / Y). |
+| **macOS ve Windows** | Aynı arayüz, aynı oyun profilleri, aynı OBS yayın sayfası; ikisi de otomatik güncellenir. |
+| **Otomatik güncelleme** | Yeni sürümü kendisi bulur; her güncelleme dijital imzayla doğrulanır. |
+| **Gizlilik** | Ekran ve ses yalnızca senin bilgisayarında, bellekte işlenir; kaydedilmez, gönderilmez. |
 
 ## Kurulum
 
@@ -179,13 +179,13 @@ Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar
 ### Neler sunar
 | | |
 |---|---|
-| 🎬 **Şeffaf yayın katmanı** | Çeviri yokken hiçbir şey görünmez; çeviri gelince yumuşak geçişle belirir ve kaybolur. |
-| 🧩 **Ayrı kaynaklar** | Altyazı, sesli konuşma çevirisi ve bildirimler üç ayrı Tarayıcı kaynağı olabilir; her birini OBS'te istediğin yere sürükle. |
-| 🎨 **Canlı stil** | Yazı tipi ve kalınlığı, yazı boyutu, konum (alt / orta / üst), kutu rengi ve saydamlığı, orijinal metin uygulamadan anında değişir; OBS'te bir şey yapmak gerekmez. |
-| 🙈 **Yalnızca yayında gizle** | **⌃⌥Y** çevirileri yayından gizler, senin ekranında kalır (ya da tersi). |
-| 🗣️ **Ses çevirisi de yayında** | Altyazısız diyaloglar ayrı mor balonda yayına düşer. |
-| 🖥️ **İki bilgisayarlı yayın** | Yayın başka bir bilgisayardaysa, aynı ağdaki OBS de bağlanabilir. |
-| 🩺 **Bağlantı durumu** | Ayarlar'da bağlı yayın sayfası sayısı ve son gönderilen çeviri saati görünür; **Test metni gönder** ile konumu çeviri olmadan ayarlarsın. |
+| **Şeffaf yayın katmanı** | Çeviri yokken hiçbir şey görünmez; çeviri gelince yumuşak geçişle belirir ve kaybolur. |
+| **Ayrı kaynaklar** | Altyazı, sesli konuşma çevirisi ve bildirimler üç ayrı Tarayıcı kaynağı olabilir; her birini OBS'te istediğin yere sürükle. |
+| **Canlı stil** | Yazı tipi ve kalınlığı, yazı boyutu, konum (alt / orta / üst), kutu rengi ve saydamlığı, orijinal metin uygulamadan anında değişir; OBS'te bir şey yapmak gerekmez. |
+| **Yalnızca yayında gizle** | **⌃⌥Y** çevirileri yayından gizler, senin ekranında kalır (ya da tersi). |
+| **Ses çevirisi de yayında** | Altyazısız diyaloglar ayrı mor balonda yayına düşer. |
+| **İki bilgisayarlı yayın** | Yayın başka bir bilgisayardaysa, aynı ağdaki OBS de bağlanabilir. |
+| **Bağlantı durumu** | Ayarlar'da bağlı yayın sayfası sayısı ve son gönderilen çeviri saati görünür; **Test metni gönder** ile konumu çeviri olmadan ayarlarsın. |
 
 ### Kurulum (2 dakika)
 1. Game Translator › **Ayarlar › OBS / Yayın › OBS tarayıcı kaynağını etkinleştir.** Adres görünür: `http://127.0.0.1:8765/` › **Adresi kopyala**.
