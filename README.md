@@ -1,18 +1,25 @@
 <p align="center">
-  <img src="assets/afis.png" alt="Game Translator: oyunlardaki altyazıları, bildirimleri ve konuşmaları canlı çeviren ücretsiz macOS uygulaması">
+  <img src="assets/afis.png" alt="Game Translator: oyunlardaki altyazıları, bildirimleri ve konuşmaları canlı çeviren ücretsiz macOS ve Windows uygulaması">
 </p>
 
 <p align="center">
   <a href="https://github.com/0xxnr/GameTranslator/releases/latest"><img src="https://img.shields.io/github/v/release/0xxnr/GameTranslator?label=s%C3%BCr%C3%BCm&color=7b3fe4&cacheSeconds=300" alt="Son sürüm"></a>
   <a href="https://github.com/0xxnr/GameTranslator/releases"><img src="https://img.shields.io/github/downloads/0xxnr/GameTranslator/total?label=indirme&color=ff7a45&cacheSeconds=300" alt="Toplam indirme"></a>
   <img src="https://img.shields.io/badge/macOS-15%2B-111111?logo=apple" alt="macOS 15 ve üstü">
-  <img src="https://img.shields.io/badge/Apple%20silicon-M1%2B-555555" alt="Apple silicon (M1 ve üstü)">
+  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?logo=windows" alt="Windows 10 ve 11">
   <img src="https://img.shields.io/badge/fiyat-%C3%BCcretsiz-2ea44f" alt="Ücretsiz">
 </p>
 
 <p align="center">
-  <a href="https://github.com/0xxnr/GameTranslator/releases/latest"><b>⬇&nbsp; Son sürümü indir</b></a>
-  &nbsp;·&nbsp; <a href="#konsol-oyunlari">Konsol oyunları</a>
+  <a href="https://github.com/0xxnr/GameTranslator/releases/latest"><img src="https://img.shields.io/badge/macOS%20i%C3%A7in%20indir-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="macOS için indir" height="40"></a>
+  &nbsp;
+  <a href="https://github.com/0xxnr/GameTranslator/releases/latest"><img src="https://img.shields.io/badge/Windows%20i%C3%A7in%20indir-10%20%2F%2011-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows için indir" height="40"></a>
+  <br>
+  <sub>Sürüm sayfasında Mac için <code>…-macOS.zip</code>, Windows için <code>…-Windows.zip</code> dosyasını indir.</sub>
+</p>
+
+<p align="center">
+  <a href="#konsol-oyunlari">Konsol oyunları</a>
   &nbsp;·&nbsp; <a href="#kurulum">Kurulum</a>
   &nbsp;·&nbsp; <a href="#özellikler">Özellikler</a>
   &nbsp;·&nbsp; <a href="#obs-ile-yayın"><b>OBS ile yayın</b></a>
@@ -25,14 +32,17 @@
 <h2 align="center">🎮 Konsoldaki oyunlar artık Türkçe</h2>
 
 <p align="center">
-  <b>PlayStation, Xbox ve Nintendo Switch oyunlarını Mac'inde anlık çevir.</b><br>
-  İster <b>yapay zekâ</b> ile, ister <b>Apple'ın ücretsiz ve çevrimdışı çevirisiyle</b>.<br>
+  <b>PlayStation, Xbox ve Nintendo Switch oyunlarını Mac'inde ya da Windows PC'nde anlık çevir.</b><br>
+  İster <b>yapay zekâ</b> ile, ister <b>Apple'ın ücretsiz ve çevrimdışı çevirisiyle</b> (macOS).<br>
   Türkçe desteği olmayan oyunlar, altyazısız diyaloglar, haritalar ve görev metinleri — hepsi oynarken, anında Türkçe.
 </p>
 
 **Game Translator**, oyun ekranındaki yazıyı okur, çevirir ve çeviriyi **orijinal yazının tam üstüne** çizer. Altyazı değiştikçe
 ve pencere taşındıkça takip eder. Altyazısı olmayan diyalogları dinleyip çevirebilir, çevirileri **OBS** ile yayına da gönderebilir.
 PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcılarla çalışır.
+
+> 🍎 **macOS** (Apple silicon) ve 🪟 **Windows 10 / 11** sürümleri var; ikisi de ücretsiz ve aynı özellikleri sunar.
+> Windows'taki küçük farklar için [Windows'ta kurulum](#windowsta-kurulum) bölümüne bak.
 
 ### 🎬 Oyunda nasıl görünüyor?
 
@@ -121,11 +131,14 @@ oynarken başka hiçbir şeye dokunman gerekmez.
 | 🎨 **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Yazı rengi kendiliğinden uyum sağlar. |
 | 📺 **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
 | 🌐 **Çeviri motorları** | Apple (çevrimdışı, ücretsiz), DeepL, Google, Azure, LLM (OpenAI, Ollama, LM Studio), Self-Hosted (LibreTranslate). |
-| ⌨️ **Genel kısayollar** | Oyun öndeyken de çalışır: ⌃⌥T başlat/durdur, ⌃⌥H yazıları gizle, ⌃⌥Y yalnızca yayında gizle. |
+| ⌨️ **Genel kısayollar** | Oyun öndeyken de çalışır: ⌃⌥T başlat/durdur, ⌃⌥H yazıları gizle, ⌃⌥Y yalnızca yayında gizle (Windows'ta Ctrl+Alt+T / H / Y). |
+| 🪟 **macOS ve Windows** | Aynı arayüz, aynı oyun profilleri, aynı OBS yayın sayfası; ikisi de otomatik güncellenir. |
 | 🔄 **Otomatik güncelleme** | Yeni sürümü kendisi bulur; her güncelleme dijital imzayla doğrulanır. |
-| 🔒 **Gizlilik** | Ekran ve ses yalnızca senin Mac'inde, bellekte işlenir; kaydedilmez, gönderilmez. |
+| 🔒 **Gizlilik** | Ekran ve ses yalnızca senin bilgisayarında, bellekte işlenir; kaydedilmez, gönderilmez. |
 
 ## Kurulum
+
+### macOS'ta kurulum
 
 1. **[Sürümler](https://github.com/0xxnr/GameTranslator/releases/latest)** sayfasından `GameTranslator-x.y.z-macOS.zip` dosyasını indir ve aç.
 2. **Game Translator.app**'i **Uygulamalar** klasörüne sürükle.
@@ -137,6 +150,26 @@ oynarken başka hiçbir şeye dokunman gerekmez.
 
 **Gereksinimler:** macOS 15 (Sequoia) veya üstü, Apple silicon (M1 ve üstü) işlemcili Mac. Sesli konuşma çevirisi için oyun dilinin dikte paketi
 (Sistem Ayarları › Klavye › Dikte) gerekebilir.
+
+<a id="windowsta-kurulum"></a>
+
+### Windows'ta kurulum
+
+1. **[Sürümler](https://github.com/0xxnr/GameTranslator/releases/latest)** sayfasından `GameTranslator-x.y.z-Windows.zip` dosyasını indir.
+2. Zip'e **sağ tıkla › Tümünü ayıkla**. Çıkan `GameTranslator.exe`'yi istediğin yazılabilir bir klasöre koy (ör. Belgeler ya da Masaüstü; *Program Files* değil).
+   Kurulum gerekmez, .NET ya da başka bir şey yüklemen gerekmez.
+3. `GameTranslator.exe`'ye çift tıkla. Windows SmartScreen uyarırsa **Ek bilgi › Yine de çalıştır**. *(Uygulama kod imzası taşımadığı için yalnızca ilk açılışta sorar.)*
+4. **Ayarlar › Çeviri motoru**'ndan motoru seç. Windows'ta Apple çevirisi yoktur; **DeepL API Free** (ayda 500.000 karakter ücretsiz),
+   Azure, Google ya da Ollama ile **ücretsiz ve çevrimdışı** yapay zekâ kullanabilirsin.
+5. **Değiştir** ile oyun penceresini seç, ardından **Çeviriyi Başlat** (Ctrl+R) ya da oyundayken **Ctrl+Alt+T**.
+
+**Gereksinimler:** Windows 10 (2004 ve üstü) ya da Windows 11, 64 bit. Yazılar Windows'un yerleşik OCR'ı ile okunur: oyun dili Windows'ta yüklü
+olmalı (Ayarlar › Zaman ve dil › Dil ve bölge › Dil ekle); uygulama eksikse söyler. Oyunu **pencere** ya da **tam ekran pencere (borderless)** modunda çalıştır.
+
+**Windows'a özel notlar**
+- **Sesli konuşma çevirisi** cihazda çalışır; ilk açılışta ses modeli bir kez indirilir (57 ya da 181 MB). Windows'ta bilgisayarın tüm sesi dinlenir.
+- Ekrandaki çeviri ekran yakalamalarına girmez; yayında çeviri için [OBS Tarayıcı kaynağını](#obs-ile-yayın) kullan.
+- Kısayollar: **Ctrl+Alt+T** başlat/durdur, **Ctrl+Alt+H** yazıları gizle, **Ctrl+Alt+Y** yalnızca yayında gizle.
 
 ## OBS ile yayın
 
@@ -325,6 +358,10 @@ kurulum başarısız olursa eski sürüm geri konur. Güncellemeden sonra macOS 
 ```bash
 shasum -a 256 ~/Downloads/GameTranslator-*-macOS.zip
 ```
+Windows'ta (PowerShell):
+```powershell
+Get-FileHash $HOME\Downloads\GameTranslator-*-Windows.zip -Algorithm SHA256
+```
 
 ## Sık sorulanlar
 
@@ -335,7 +372,20 @@ Uygulamaya **sağ tıkla › Aç › Aç**. Olmazsa Sistem Ayarları › Gizlili
 </details>
 
 <details>
-<summary><b>Pencere listesi boş ya da görüntü siyah</b></summary>
+<summary><b>Windows "Bilgisayarınız korundu" diyor</b></summary>
+
+SmartScreen uyarısında **Ek bilgi › Yine de çalıştır**'a bas. Uygulama kod imzası taşımadığı için Windows bunu yalnızca ilk açılışta sorar.
+</details>
+
+<details>
+<summary><b>Windows'ta çeviri oyunun üstünde görünmüyor</b></summary>
+
+Oyunu **pencere** ya da **tam ekran pencere (borderless)** modunda çalıştır. Özel tam ekran (exclusive fullscreen) modunda Windows hiçbir
+uygulamanın oyunun üstüne çizmesine izin vermez. Görüntü siyahsa oyunu öne getir ya da **Ekran** kaynağını seç.
+</details>
+
+<details>
+<summary><b>Pencere listesi boş ya da görüntü siyah (macOS)</b></summary>
 
 Ekran Kaydı izni eksiktir: Sistem Ayarları › Gizlilik ve Güvenlik › Ekran ve Sistem Ses Kaydı › Game Translator'ı aç ve uygulamayı
 yeniden başlat. Güncellemeden sonra izni kapatıp açman gerekebilir. Bazı korumalı uygulamalar yakalamada siyah görüntü verir;
@@ -352,7 +402,8 @@ büyütmeyi artır. Oyun dilinin doğru seçildiğinden emin ol.
 <details>
 <summary><b>İnternet gerekiyor mu?</b></summary>
 
-Apple motoruyla hayır: dil paketi bir kez indikten sonra tamamen çevrimdışı çalışır. DeepL, Google, Azure ve bulut LLM'ler internet ister.
+macOS'ta Apple motoruyla hayır: dil paketi bir kez indikten sonra tamamen çevrimdışı çalışır. Windows'ta ve her iki sistemde Ollama / LM Studio ile
+yerel model kullanırsan da internet gerekmez. DeepL, Google, Azure ve bulut LLM'ler internet ister.
 </details>
 
 <details>
@@ -363,7 +414,7 @@ Uygulama tamamen ücretsizdir. Kaynak kodu paylaşılmaz; bu depo yalnızca indi
 
 ## Gizlilik
 
-Ekran görüntüsü ve ses yalnızca bu Mac'te, bellekte işlenir; kaydedilmez, hiçbir yere gönderilmez. Apple motoru internet kullanmaz.
+Ekran görüntüsü ve ses yalnızca senin bilgisayarında, bellekte işlenir; kaydedilmez, hiçbir yere gönderilmez. Apple motoru internet kullanmaz.
 Bulut motoru seçersen yalnızca okunan metin, kendi API anahtarınla o sağlayıcıya gönderilir. Uygulama güncelleme denetimi için
 yalnızca bu deponun herkese açık sürüm bilgisini okur; kullanıcı verisi toplamaz.
 
