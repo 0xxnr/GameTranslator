@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/afis.png" alt="Game Translator: oyunlardaki altyazıları, bildirimleri ve konuşmaları canlı çeviren ücretsiz macOS ve Windows uygulaması">
+  <img src="assets/afis-2.png" alt="Game Translator: oyunlardaki altyazıları, bildirimleri ve konuşmaları canlı çeviren ücretsiz macOS ve Windows uygulaması">
 </p>
 
 <p align="center">
