@@ -20,6 +20,8 @@
 
 <p align="center">
   <a href="#konsol-oyunlari">Konsol oyunları</a>
+  &nbsp;·&nbsp; <a href="#dil-paketleri"><b>İnternetsiz çeviri</b></a>
+  &nbsp;·&nbsp; <a href="#oyun-rehberi">Oyun rehberi</a>
   &nbsp;·&nbsp; <a href="#kurulum">Kurulum</a>
   &nbsp;·&nbsp; <a href="#özellikler">Özellikler</a>
   &nbsp;·&nbsp; <a href="#obs-ile-yayın"><b>OBS ile yayın</b></a>
@@ -105,6 +107,143 @@ Oyuna, konsola ya da hesabına hiçbir şey kurulmaz, hiçbir şey değiştirilm
 Kaynağı **Değiştir** ile seç, oyun profilini ayarla, **⌃⌥T** ile çeviriyi başlat. Çeviri oyun penceresini takip eder;
 oynarken başka hiçbir şeye dokunman gerekmez.
 
+<a id="dil-paketleri"></a>
+
+## İnternetsiz çeviri: oyun dil paketleri
+
+<p align="center"><b>İnternet yok mu, kotan mı bitti, ya da oyunun resmi metinlerini mi görmek istiyorsun?</b><br>
+Dil paketiyle çeviri oyunun kendi metinlerinden gelir: <b>internetsiz, anında, ücretsiz ve her seferinde aynı.</b></p>
+
+Dil paketi, bir oyunun **"orijinal metin → Türkçe çeviri"** listesidir. Paketi oyun profiline bağladığında o oyunda ekrandan okunan yazı
+önce pakette aranır; bulunursa paketteki çeviri gösterilir, hiçbir yere bağlanılmaz. Bulunamayan yazılar seçtiğin çeviri motoruna kalır.
+
+- **Çevrimdışı oynayanlar için:** uçakta, yolda, internetin zayıf olduğu yerde ya da bulut motorun sınırı dolduğunda çeviri sürer.
+- **Doğru terimler:** topluluk Türkçe yamalarındaki ya da kendi düzelttiğin çeviriler kullanılır; eşya, yetenek ve görev adları hep aynı çıkar.
+- **Sıfır gecikme:** paketten gelen çeviri motoru beklemez, altyazı belirdiği anda ekrandadır.
+
+> Dil paketleri macOS sürümünde, **1.5.0** ile geldi.
+
+<table>
+<tr>
+<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-olustur.png" alt="Dil paketi oluştur: Red Dead Redemption 2'nin İngilizce ve Türkçe .gxt2 dosyalarından 3 çeviri eşleşti, örnek eşleşmeler listeleniyor"></td>
+<td>
+
+### Oyun dosyalarından paket oluştur
+- Oyunun **orijinal** (ör. İngilizce) ve **Türkçe** dil dosyalarını seç; metinler oyunun kendi anahtarlarıyla eşleştirilir.
+- Görselde Red Dead Redemption 2'nin `.gxt2` dosyaları: *"3 orijinal, 3 Türkçe metin okundu → 3 çeviri eşleşti."*
+- **Örnek eşleşmeler** önizlemesi: *Wanted in New Hanover → New Hanover'da aranıyor*.
+- Renk kodları, düğme simgeleri (`~INPUT_CONTEXT~`), etiketler ve yer tutucular kendiliğinden temizlenir.
+- Desteklenen: Unreal Engine `.locres`, Rockstar `.gxt2`, Bethesda `.strings`, Paradox `.yml`, XML, JSON, CSV / TSV / TXT, `.po`.
+- Sağ üstteki **Oyun rehberi** hangi oyunun dosyasının nerede olduğunu gösterir.
+
+</td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-tablo.png" alt="Dil paketi oluştur: çok dilli tablodan modu"></td>
+<td>
+
+### Çok dilli tablodan
+- Her dilin ayrı sütunda olduğu tablolar: Unity (I2 Localization), Godot, ya da RE Engine / FromSoftware dosyalarının dışa aktarılmış hâli.
+- Tabloyu seç; **İngilizce ve Türkçe sütunlar kendiliğinden bulunur**, istersen değiştir.
+- **Önizle** ile kaç çeviri bulunduğunu gör, paketine bir ad ver ve **Paketi oluştur**.
+
+</td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-profil.png" alt="Oyun profili: okuma ayarları altında Dil paketi seçimi, 4 çeviri"></td>
+<td>
+
+### Oyuna bağla
+- **Oyun Profili › Ayarla › Dil paketi** listesinden paketi seç; o oyun seçiliyken paket kullanılır.
+- **Oluştur…** ve **Ekle…** düğmeleri buradan da çalışır; yeni paket hemen seçili gelir.
+- Paketteki çeviri sayısı ve nasıl çalışacağı altında yazar: *"Okunan yazı önce bu pakette aranır; bulunamazsa çeviri motoru kullanılır."*
+
+</td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-ayarlar.png" alt="Ayarlar: Dil paketleri bölümü, kullanım şekli, internet durumu ve paket listesi"></td>
+<td>
+
+### Ayarlar › Dil paketleri
+- **Ne zaman kullanılsın:** *Önce dil paketi, bulamazsa çeviri motoru* ya da *Yalnızca internet yokken*.
+- **İnternet** durumu canlı görünür; bağlantı kesilince ya da çeviri motoru hata verince paket kendiliğinden devreye girer.
+- Paket listesi: her paketin çeviri sayısı, **paylaş** (dışa aktar) ve **sil** düğmeleri.
+- **Oyun dosyalarından oluştur…**, **Dil paketi ekle…** ve hazır şablon için **Örnek paket kaydet…**
+
+</td>
+</tr>
+</table>
+
+### Kendi paketini elle hazırla
+1. En kolayı CSV: 1. sütun orijinal, 2. sütun çeviri. Excel, Numbers ya da Google E-Tablolar'da hazırlayıp CSV olarak kaydet.
+   Hazır şablon: [ornek-dil-paketi.csv](dil-paketleri/ornek-dil-paketi.csv).
+2. **Ayarlar › Dil paketleri › Dil paketi ekle…**
+3. **Oyun Profili › Ayarla › Dil paketi**'nden seç.
+
+| Biçim | Örnek |
+|---|---|
+| **CSV / TSV** | `"Bounty Board","Ödül Panosu"` |
+| **TXT** | `Bounty Board = Ödül Panosu` |
+| **JSON** | `{"name": "Oyun adı", "entries": {"Bounty Board": "Ödül Panosu"}}` |
+| **PO** (gettext) | `msgid "Bounty Board"` / `msgstr "Ödül Panosu"` |
+
+**Akıllı eşleşme:** ekrandan okunan yazıdaki küçük harf hataları, eksik noktalama ve baştaki konuşmacı adı tolere edilir. Emin olunamayan
+eşleşmeler kullanılmaz, çeviri motoruna bırakılır; yanlış çeviri gösterilmez.
+
+<a id="oyun-rehberi"></a>
+
+## Oyun rehberi: Türkçesi olmayan güncel PS5 oyunları
+
+Aşağıdaki oyunların PS5 sürümünde Türkçe yok (PlayStation Türkiye mağaza sayfalarındaki ekran dilleri, Ekim 2026).
+Hepsi Game Translator ile **çeviri motoruyla** (Apple ya da yapay zekâ) anında çevrilebilir. Oyunun PC sürümü varsa,
+dil dosyalarından **dil paketi** oluşturup çeviriyi oyunun kendi metinleriyle ve internetsiz yapabilirsin.
+
+| Oyun | Motor | Dil dosyası | Game Translator'da |
+|---|---|---|---|
+| **Marvel's Wolverine** | Insomniac (PS5'e özel) | PC sürümü yok, dosya çıkarılamaz | Çeviri motoru; topluluğun elle hazırladığı CSV paketi |
+| **Saros** | Housemarque (PS5'e özel) | PC sürümü yok | Çeviri motoru; elle hazırlanmış CSV paketi |
+| **Resident Evil Requiem** | Capcom RE Engine | `.msg` (oyunun `.pak` arşivlerinde) | Tablodan: `.msg` → CSV dışa aktarımı |
+| **Onimusha: Way of the Sword** | Capcom RE Engine | `.msg` | Tablodan: `.msg` → CSV dışa aktarımı |
+| **Monster Hunter Wilds** | Capcom RE Engine | `.msg` | Tablodan: `.msg` → CSV dışa aktarımı |
+| **Red Dead Redemption 2** | Rockstar RAGE | `.gxt2` (`.rpf` arşivlerinde) | İki dil dosyasından: İngilizce + Türkçe `.gxt2` |
+| **Grand Theft Auto V** | Rockstar RAGE | `.gxt2` (`.rpf` arşivlerinde) | İki dil dosyasından: İngilizce + Türkçe `.gxt2` |
+| **Silent Hill f** | Unreal Engine 5 | `.locres` (`.pak` / `.utoc` içinde) | İki dil dosyasından: İngilizce + Türkçe `.locres` |
+| **Hogwarts Legacy** | Unreal Engine 4 | `.locres` | İki dil dosyasından: İngilizce + Türkçe `.locres` |
+| **Mafia: The Old Country** | Unreal Engine 5 | `.locres` | İki dil dosyasından: İngilizce + Türkçe `.locres` |
+| **Elden Ring Nightreign** | FromSoftware | `.fmg` (`msg/*.msgbnd.dcx` içinde) | İki dil dosyasından: XML'e aktarılmış `.fmg` |
+| **Nioh 3** | Koei Tecmo | Kapalı biçim | Çeviri motoru; elle hazırlanmış CSV paketi |
+
+### Dil paketi nasıl oluşturulur?
+Konsol oyunlarının dosyaları PS5'in içinde ve şifrelidir; Mac'ten erişilemez. Paket, aynı oyunun **PC sürümündeki** dil
+dosyalarından yapılır: oyunun **orijinal (İngilizce) dosyası** ile **Türkçe dosyası** (ör. topluluğun Türkçe yaması) aynı
+anahtarlarla eşleştirilir. İki dosya da oyunun **aynı sürümüne** ait olmalı.
+
+1. **Dosyaları çıkar.** Oyunların arşivleri topluluk araçlarıyla açılır:
+   - **Unreal Engine** (`.pak` / `.utoc`): FModel ile `Localization/Game/en/Game.locres` ve Türkçe karşılığı dışa aktarılır.
+   - **Rockstar RAGE** (`.rpf`): GTA V için OpenIV ya da CodeWalker, RDR2 için CodeX ile `.gxt2` dosyaları çıkarılır.
+     Türkçe yamalar genelde `.gxt2` dosyalarını hazır verir.
+   - **Capcom RE Engine** (`.pak` → `.msg`): RE Engine paket araçlarıyla `.msg` dosyaları çıkarılır, REMSG_Converter gibi bir
+     araçla dillerin ayrı sütunlarda olduğu **CSV**'ye aktarılır.
+   - **FromSoftware** (`.msgbnd.dcx` → `.fmg`): WitchyBND ya da Smithbox ile `.fmg` dosyaları **XML**'e aktarılır.
+2. **Game Translator'da:** Ayarlar › Dil paketleri › **Oyun dosyalarından oluştur…** (ya da Oyun Profili › Ayarla › Dil paketi › **Oluştur…**)
+   - **Oyun dil dosyalarından:** orijinal dosyaları ve Türkçe dosyaları seç. Birden çok dosya seçilebilir (ör. GTA V'nin görev dosyaları).
+   - **Çok dilli tablodan:** CSV / JSON tabloyu seç; İngilizce ve Türkçe sütunlar kendiliğinden bulunur, gerekirse değiştir.
+   - **Önizle** ile eşleşen çeviri sayısını ve örnekleri gör, **Paketi oluştur**.
+3. Paketi oyunun profiline bağla. Oyundaki renk kodları, düğme simgeleri (`~INPUT_CONTEXT~`), etiketler (`<COLOR>`) ve yer
+   tutucular (`{0}`) temizlenir; ekrandan okunan yazıyla eşleşme bozulmaz.
+
+| Biçim | Oyunlar |
+|---|---|
+| Unreal Engine `.locres` (tüm sürümler) | Unreal Engine 4 / 5 oyunları |
+| Rockstar `.gxt2` | GTA V, Red Dead Redemption 2 |
+| Bethesda `.strings` / `.dlstrings` / `.ilstrings` | Skyrim, Fallout 4, Starfield |
+| Paradox `.yml` | Crusader Kings III, Stellaris ve diğer Paradox oyunları |
+| XML (`id` öznitelikli) | FromSoftware `.fmg` dışa aktarımları ve benzerleri |
+| JSON, CSV / TSV, `.po` | Unity, Godot ve dışa aktarılmış yerelleştirme tabloları |
+
+> Oyun metinleri yayıncılarına, Türkçe yamalar hazırlayanlarına aittir. Paketleri kişisel kullanım için oluştur; paylaşmadan
+> önce yamanın sahibinden izin al. Game Translator oyun dosyalarını değiştirmez, yalnızca okur.
+
 ## Çeviri motoru seçimi: yapay zekâ ya da ücretsiz Apple çevirisi
 
 | | **Apple çevirisi** | **Yapay zekâ (LLM)** | **DeepL · Google · Azure** |
@@ -127,6 +266,7 @@ oynarken başka hiçbir şeye dokunman gerekmez.
 | **Oyun profilleri** | Altyazı + en fazla 3 ek bölge (bildirim, görev, ipucu) + ses çevirisi alanı. Her bölgenin yazı boyutu ayrı ya da otomatik. |
 | **Okuma ayarları** | Büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık. "OCR'a giden" görüntüyü canlı izlersin. |
 | **Sesli konuşma çevirisi** | Altyazısız diyalogları ve NPC sohbetlerini dinler, mor bir balonda çevirir. Konuşma tanıma cihazda çalışır. |
+| **[Dil paketleri](#dil-paketleri)** | Oyunun "orijinal → Türkçe" metinleriyle **internetsiz** çeviri. Oyun dosyalarından (.locres, .gxt2, .strings, .yml, XML) ya da tablodan otomatik oluşturulur; CSV, TXT, JSON, PO ile elle de hazırlanır. |
 | **Yazı tipi** | Hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf/.otf dosyan; kalınlık ayarı. Ekranda ve OBS'te aynı yazı tipi. |
 | **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Yazı rengi kendiliğinden uyum sağlar. |
 | **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
@@ -452,7 +592,8 @@ büyütmeyi artır. Oyun dilinin doğru seçildiğinden emin ol.
 <summary><b>İnternet gerekiyor mu?</b></summary>
 
 macOS'ta Apple motoruyla hayır: dil paketi bir kez indikten sonra tamamen çevrimdışı çalışır. Windows'ta ve her iki sistemde Ollama / LM Studio ile
-yerel model kullanırsan da internet gerekmez. DeepL, Google, Azure ve bulut LLM'ler internet ister.
+yerel model kullanırsan da internet gerekmez. Oyuna bir [dil paketi](#dil-paketleri) bağlarsan, paketteki yazılar
+hangi motor seçili olursa olsun internetsiz çevrilir. DeepL, Google, Azure ve bulut LLM'ler internet ister.
 </details>
 
 <details>

@@ -2,6 +2,18 @@
 
 İndirme: [Sürümler](https://github.com/0xxnr/GameTranslator/releases)
 
+## 1.5.0 — Oyun dil paketleri
+- **Dil paketi:** bir oyunun "orijinal metin → çeviri" listesini uygulamaya ekleyip oyun profiline bağlayabilirsin. O oyun seçiliyken ekrandan okunan yazı önce pakette aranır ve **internet olmadan** da çevrilir.
+- **Akıllı eşleşme:** ekrandan okunan yazıdaki küçük harf hataları, eksik noktalama, büyük/küçük harf farkı ve baştaki konuşmacı adı tolere edilir. Emin olunamayan eşleşmeler kullanılmaz, çeviri motoruna bırakılır.
+- **İki kullanım şekli** (Ayarlar › Dil paketleri): "Önce dil paketi, bulamazsa çeviri motoru" ya da "Yalnızca internet yokken". İnternet kesilince ya da çeviri motoru hata verince paket kendiliğinden devreye girer.
+- **Biçimler:** CSV / TSV (Excel, Numbers, Google E-Tablolar ile hazırlanabilir), TXT ("orijinal = çeviri"), JSON ve PO.
+- **Paylaşım:** paketler dışa aktarılıp başkalarıyla paylaşılabilir; "Örnek paket kaydet" ile hazır bir şablon alınır.
+- Oyun Profili › Ayarla'da yeni **Dil paketi** seçimi; Ayarlar'da paket listesi ve internet durumu.
+- **Oyun dosyalarından paket oluştur:** oyunun orijinal ve Türkçe dil dosyaları anahtara göre eşleştirilip paket yapılır. Desteklenen biçimler: Unreal Engine `.locres` (tüm sürümler), Rockstar `.gxt2` (GTA V, RDR2), Bethesda `.strings`, Paradox `.yml`, XML (FromSoftware `.fmg` dışa aktarımı), JSON, CSV, PO. Birden çok dosya birlikte seçilebilir.
+- **Çok dilli tablodan paket:** dillerin ayrı sütunlarda olduğu tablolarda (Unity, Godot, RE Engine dışa aktarımları) İngilizce ve Türkçe sütun kendiliğinden bulunur.
+- Oyun metinlerindeki renk kodları, düğme simgeleri, etiketler ve yer tutucular temizlenir; önizlemede eşleşen çeviri sayısı ve örnekler görünür.
+- **Oyun rehberi:** Türkçesi olmayan güncel PS5 oyunları için dil dosyasının biçimi, yeri ve çıkarma yolu (indirme sayfasında).
+
 ## 1.4.0 — Yazı tipi seçimi
 - **Ayarlar › Görünüm › Yazı tipi:** çeviri yazısının yazı tipi artık seçilebiliyor. Hazır seçenekler: Sistem (SF Pro), Yuvarlak, Serif ve Eş aralıklı.
 - **Bilgisayardaki yazı tipleri:** Mac'inde yüklü tüm yazı tipleri aranabilir bir listede, her biri kendi görünümüyle; tek tıkla seç.
