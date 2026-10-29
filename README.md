@@ -133,7 +133,7 @@ Dil paketi, bir oyunun **"orijinal metin → Türkçe çeviri"** listesidir. Pak
 - Görselde Red Dead Redemption 2'nin `.gxt2` dosyaları: *"3 orijinal, 3 Türkçe metin okundu → 3 çeviri eşleşti."*
 - **Örnek eşleşmeler** önizlemesi: *Wanted in New Hanover → New Hanover'da aranıyor*.
 - Renk kodları, düğme simgeleri (`~INPUT_CONTEXT~`), etiketler ve yer tutucular kendiliğinden temizlenir.
-- Desteklenen: Unreal Engine `.locres`, Rockstar `.gxt2`, Bethesda `.strings`, Paradox `.yml`, XML, JSON, CSV / TSV / TXT, `.po`.
+- Desteklenen: Unreal Engine `.locres`, Rockstar `.gxt2`, Bethesda `.strings`, `.yml`, XML, JSON, CSV / TSV / TXT, `.po`.
 - Sağ üstteki **Oyun rehberi** hangi oyunun dosyasının nerede olduğunu gösterir.
 
 </td>
@@ -237,7 +237,7 @@ anahtarlarla eşleştirilir. İki dosya da oyunun **aynı sürümüne** ait olma
 | Unreal Engine `.locres` (tüm sürümler) | Unreal Engine 4 / 5 oyunları |
 | Rockstar `.gxt2` | GTA V, Red Dead Redemption 2 |
 | Bethesda `.strings` / `.dlstrings` / `.ilstrings` | Skyrim, Fallout 4, Starfield |
-| Paradox `.yml` | Crusader Kings III, Stellaris ve diğer Paradox oyunları |
+|  `.yml` | Crusader Kings III, Stellaris|
 | XML (`id` öznitelikli) | FromSoftware `.fmg` dışa aktarımları ve benzerleri |
 | JSON, CSV / TSV, `.po` | Unity, Godot ve dışa aktarılmış yerelleştirme tabloları |
 
