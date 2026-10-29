@@ -94,7 +94,7 @@ Türkçe dil seçeneği olmayan bir oyunu artık beklemeden oynayabilirsin. Kons
 Game Translator ekrandaki İngilizce (ya da başka dildeki) yazıyı okur ve **Türkçesini orijinalin tam üstüne** yazar.
 Oyuna, konsola ya da hesabına hiçbir şey kurulmaz, hiçbir şey değiştirilmez: yalnızca ekranda görünen okunur.
 
-| Konsol | Mac'e nasıl gelir? |
+| Konsol | Bilgisayarıma nasıl gelir? |
 |---|---|
 | **PlayStation 5 / 4** | **PS Remote Play** uygulaması ya da **Elgato** gibi bir yakalama kartı |
 | **Xbox Series / One** | Tarayıcıda **xbox.com/play** üzerinden uzaktan oynatma ya da bulut oyun, veya yakalama kartı |
