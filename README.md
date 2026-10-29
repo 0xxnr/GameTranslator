@@ -117,6 +117,7 @@ oynarken başka hiçbir şeye dokunman gerekmez.
 | 🎮 **Oyun profilleri** | Altyazı + en fazla 3 ek bölge (bildirim, görev, ipucu) + ses çevirisi alanı. Her bölgenin yazı boyutu ayrı ya da otomatik. |
 | 🔬 **Okuma ayarları** | Büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık. "OCR'a giden" görüntüyü canlı izlersin. |
 | 🗣️ **Sesli konuşma çevirisi** | Altyazısız diyalogları ve NPC sohbetlerini dinler, mor bir balonda çevirir. Konuşma tanıma cihazda çalışır. |
+| 🔤 **Yazı tipi** | Hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf/.otf dosyan; kalınlık ayarı. Ekranda ve OBS'te aynı yazı tipi. |
 | 🎨 **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Yazı rengi kendiliğinden uyum sağlar. |
 | 📺 **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
 | 🌐 **Çeviri motorları** | Apple (çevrimdışı, ücretsiz), DeepL, Google, Azure, LLM (OpenAI, Ollama, LM Studio), Self-Hosted (LibreTranslate). |
@@ -147,7 +148,7 @@ Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar
 |---|---|
 | 🎬 **Şeffaf yayın katmanı** | Çeviri yokken hiçbir şey görünmez; çeviri gelince yumuşak geçişle belirir ve kaybolur. |
 | 🧩 **Ayrı kaynaklar** | Altyazı, sesli konuşma çevirisi ve bildirimler üç ayrı Tarayıcı kaynağı olabilir; her birini OBS'te istediğin yere sürükle. |
-| 🎨 **Canlı stil** | Yazı boyutu, konum (alt / orta / üst), kutu rengi ve saydamlığı, orijinal metin uygulamadan anında değişir; OBS'te bir şey yapmak gerekmez. |
+| 🎨 **Canlı stil** | Yazı tipi ve kalınlığı, yazı boyutu, konum (alt / orta / üst), kutu rengi ve saydamlığı, orijinal metin uygulamadan anında değişir; OBS'te bir şey yapmak gerekmez. |
 | 🙈 **Yalnızca yayında gizle** | **⌃⌥Y** çevirileri yayından gizler, senin ekranında kalır (ya da tersi). |
 | 🗣️ **Ses çevirisi de yayında** | Altyazısız diyaloglar ayrı mor balonda yayına düşer. |
 | 🖥️ **İki bilgisayarlı yayın** | Yayın başka bir bilgisayardaysa, aynı ağdaki OBS de bağlanabilir. |
@@ -178,7 +179,7 @@ Ayarlar › OBS / Yayın › **Yazıları OBS'te ayrı yerlere koy** altındaki 
 | Bildirimler / ek bölgeler | `http://127.0.0.1:8765/?only=zone` |
 
 Adresin sonuna parametre ekleyerek kaynak başına ayrı stil verebilirsin:
-`&size=32` (yazı boyutu), `&pos=top` (konum), `&box=e0245e&alpha=0.8` (kutu rengi ve koyuluğu), `&original=1` (orijinal metni de göster).
+`&size=32` (yazı boyutu), `&font=Arial&weight=800` (yazı tipi ve kalınlık), `&pos=top` (konum), `&box=e0245e&alpha=0.8` (kutu rengi ve koyuluğu), `&original=1` (orijinal metni de göster).
 
 ### İpuçları
 - Oyunu OBS'te **Ekran Yakalama** ile alıyorsan Mac'teki çeviri yazıları zaten yayına girer. Çift görünmesin diye

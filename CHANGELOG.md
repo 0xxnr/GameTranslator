@@ -2,6 +2,14 @@
 
 İndirme: [Sürümler](https://github.com/0xxnr/GameTranslator/releases)
 
+## 1.4.0 — Yazı tipi seçimi
+- **Ayarlar › Görünüm › Yazı tipi:** çeviri yazısının yazı tipi artık seçilebiliyor. Hazır seçenekler: Sistem (SF Pro), Yuvarlak, Serif ve Eş aralıklı.
+- **Bilgisayardaki yazı tipleri:** Mac'inde yüklü tüm yazı tipleri aranabilir bir listede, her biri kendi görünümüyle; tek tıkla seç.
+- **Kendi yazı tipini ekle:** .ttf ya da .otf dosyası ekleyip kullanabilirsin. Dosya yalnızca uygulamaya eklenir, sisteme kurulmaz; istediğin zaman kaldırabilirsin.
+- **Kalınlık:** Normal, Orta, Yarı kalın, Kalın, Çok kalın.
+- Seçilen yazı tipi ekrandaki çeviride, ek bölgelerde, sesli konuşma balonunda ve **OBS yayınında** aynı anda kullanılır; değişiklik anında yansır.
+- **OBS:** eklediğin yazı tipi dosyasını uygulama yayın sayfasına kendisi sunar; OBS'te ve iki bilgisayarlı yayında da aynı yazı tipi görünür. Kaynak başına farklı yazı tipi için adrese `?font=Arial&weight=800` eklenebilir.
+
 ## 1.3.2 — Güncelleme denetimi düzeltmesi
 - "GitHub geçici olarak sınırladı" hatası giderildi: GitHub'ın saatlik sorgu sınırına takılınca güncelleme denetimi sınırsız yedek yoldan devam ediyor.
 
