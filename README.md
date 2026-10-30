@@ -237,7 +237,6 @@ anahtarlarla eşleştirilir. İki dosya da oyunun **aynı sürümüne** ait olma
 | Unreal Engine `.locres` (tüm sürümler) | Unreal Engine 4 / 5 oyunları |
 | Rockstar `.gxt2` | GTA V, Red Dead Redemption 2 |
 | Bethesda `.strings` / `.dlstrings` / `.ilstrings` | Skyrim, Fallout 4, Starfield |
-|  `.yml` | Crusader Kings III, Stellaris|
 | XML (`id` öznitelikli) | FromSoftware `.fmg` dışa aktarımları ve benzerleri |
 | JSON, CSV / TSV, `.po` | Unity, Godot ve dışa aktarılmış yerelleştirme tabloları |
 
