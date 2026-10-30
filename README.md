@@ -163,8 +163,8 @@ dil dosyalarından **dil paketi** oluşturup çeviriyi oyunun kendi metinleriyle
 | **Resident Evil Requiem** | Capcom RE Engine | `.msg` (oyunun `.pak` arşivlerinde) | Tablodan: `.msg` → CSV dışa aktarımı |
 | **Onimusha: Way of the Sword** | Capcom RE Engine | `.msg` | Tablodan: `.msg` → CSV dışa aktarımı |
 | **Monster Hunter Wilds** | Capcom RE Engine | `.msg` | Tablodan: `.msg` → CSV dışa aktarımı |
-| **Red Dead Redemption 2** | Rockstar RAGE | `.gxt2` (`.rpf` arşivlerinde) | İki dil dosyasından: İngilizce + Türkçe `.gxt2` |
-| **Grand Theft Auto V** | Rockstar RAGE | `.gxt2` (`.rpf` arşivlerinde) | İki dil dosyasından: İngilizce + Türkçe `.gxt2` |
+| **Red Dead Redemption 2** | Rockstar | `.gxt2` (`.rpf` arşivlerinde) | İki dil dosyasından: İngilizce + Türkçe `.gxt2` |
+| **Grand Theft Auto V** | Rockstar | `.gxt2` (`.rpf` arşivlerinde) | İki dil dosyasından: İngilizce + Türkçe `.gxt2` |
 | **Silent Hill f** | Unreal Engine 5 | `.locres` (`.pak` / `.utoc` içinde) | İki dil dosyasından: İngilizce + Türkçe `.locres` |
 | **Hogwarts Legacy** | Unreal Engine 4 | `.locres` | İki dil dosyasından: İngilizce + Türkçe `.locres` |
 | **Mafia: The Old Country** | Unreal Engine 5 | `.locres` | İki dil dosyasından: İngilizce + Türkçe `.locres` |
@@ -178,7 +178,7 @@ anahtarlarla eşleştirilir. İki dosya da oyunun **aynı sürümüne** ait olma
 
 1. **Dosyaları çıkar.** Oyunların arşivleri topluluk araçlarıyla açılır:
    - **Unreal Engine** (`.pak` / `.utoc`): FModel ile `Localization/Game/en/Game.locres` ve Türkçe karşılığı dışa aktarılır.
-   - **Rockstar RAGE** (`.rpf`): GTA V için OpenIV ya da CodeWalker, RDR2 için CodeX ile `.gxt2` dosyaları çıkarılır.
+   - **Rockstar** (`.rpf`): GTA V için OpenIV ya da CodeWalker, RDR2 için CodeX ile `.gxt2` dosyaları çıkarılır.
      Türkçe yamalar genelde `.gxt2` dosyalarını hazır verir.
    - **Capcom RE Engine** (`.pak` → `.msg`): RE Engine paket araçlarıyla `.msg` dosyaları çıkarılır, REMSG_Converter gibi bir
      araçla dillerin ayrı sütunlarda olduğu **CSV**'ye aktarılır.
