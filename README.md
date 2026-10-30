@@ -123,54 +123,6 @@ Dil paketi, bir oyunun **"orijinal metin → Türkçe çeviri"** listesidir. Pak
 
 > Dil paketleri macOS sürümünde, **1.5.0** ile geldi.
 
-<table>
-
-</td>
-</tr>
-<tr>
-<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-tablo.png" alt="Dil paketi oluştur: çok dilli tablodan modu"></td>
-<td>
-
-### Çok dilli tablodan
-- Her dilin ayrı sütunda olduğu tablolar: Unity (I2 Localization), Godot, ya da RE Engine / FromSoftware dosyalarının dışa aktarılmış hâli.
-- Tabloyu seç; **İngilizce ve Türkçe sütunlar kendiliğinden bulunur**, istersen değiştir.
-- **Önizle** ile kaç çeviri bulunduğunu gör, paketine bir ad ver ve **Paketi oluştur**.
--Oyun dosyalarından paket oluştur
--Oyunun orijinal (ör. İngilizce) ve Türkçe dil dosyalarını seç; metinler oyunun kendi anahtarlarıyla eşleştirilir.
--Görselde Red Dead Redemption 2'nin .gxt2 dosyaları: "3 orijinal, 3 Türkçe metin okundu → 3 çeviri eşleşti."
--Örnek eşleşmeler önizlemesi: Wanted in New Hanover → New Hanover'da aranıyor.
--Renk kodları, düğme simgeleri (~INPUT_CONTEXT~), etiketler ve yer tutucular kendiliğinden temizlenir.
--Desteklenen: Unreal Engine .locres, Rockstar .gxt2, Bethesda .strings, .yml, XML, JSON, CSV / TSV / TXT, .po.
--Sağ üstteki Oyun rehberi hangi oyunun dosyasının nerede olduğunu gösterir.
-
-
-</td>
-</tr>
-<tr>
-<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-profil.png" alt="Oyun profili: okuma ayarları altında Dil paketi seçimi, 4 çeviri"></td>
-<td>
-
-### Oyuna bağla
-- **Oyun Profili › Ayarla › Dil paketi** listesinden paketi seç; o oyun seçiliyken paket kullanılır.
-- **Oluştur…** ve **Ekle…** düğmeleri buradan da çalışır; yeni paket hemen seçili gelir.
-- Paketteki çeviri sayısı ve nasıl çalışacağı altında yazar: *"Okunan yazı önce bu pakette aranır; bulunamazsa çeviri motoru kullanılır."*
-
-</td>
-</tr>
-<tr>
-<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-ayarlar.png" alt="Ayarlar: Dil paketleri bölümü, kullanım şekli, internet durumu ve paket listesi"></td>
-<td>
-
-### Ayarlar › Dil paketleri
-- **Ne zaman kullanılsın:** *Önce dil paketi, bulamazsa çeviri motoru* ya da *Yalnızca internet yokken*.
-- **İnternet** durumu canlı görünür; bağlantı kesilince ya da çeviri motoru hata verince paket kendiliğinden devreye girer.
-- Paket listesi: her paketin çeviri sayısı, **paylaş** (dışa aktar) ve **sil** düğmeleri.
-- **Oyun dosyalarından oluştur…**, **Dil paketi ekle…** ve hazır şablon için **Örnek paket kaydet…**
-
-</td>
-</tr>
-</table>
-
 ### Kendi paketini elle hazırla
 1. En kolayı CSV: 1. sütun orijinal, 2. sütun çeviri. Excel, Numbers ya da Google E-Tablolar'da hazırlayıp CSV olarak kaydet.
    Hazır şablon: [ornek-dil-paketi.csv](dil-paketleri/ornek-dil-paketi.csv).
