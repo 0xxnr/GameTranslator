@@ -66,14 +66,6 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
   <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim-2.mp4"><b>Sesli videoyu izle (1 dk)</b></a></sub>
 </p>
 
-### Altyazı ve konuşma aynı anda
-
-<p align="center">
-  <img src="assets/ekran-goruntuleri/profil-altyazi-ses.jpg" width="800" alt="Oyun profili: altyazı, iki ek bölge ve ses çevirisi alanı; okunan metin, seçilen bölge ve OCR'a giden görüntü">
-  <br>
-  <sub>Oyun profili: <b>Altyazı</b> bölgesi okunuyor, <b>Ses çevirisi</b> balonunun yeri seçili. Altta okunan metin ve OCR'a giden görüntü canlı izleniyor.</sub>
-</p>
-
 ### Altyazı dışındaki yazılar da çevrilir
 
 Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline eklediğin her bölge ayrı okunur ve ayrı çevrilir.
@@ -300,6 +292,13 @@ Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar
   <br>
   <sub>Yayına düşen görüntü: altyazının Türkçesi kutu içinde orijinalin hemen üstünde; altyazısı olmayan arka plan konuşmaları
   sağ üstteki <b>mor balonda</b> ayrı kaynak olarak görünür. Konum, boyut ve kutu rengi uygulamadan canlı ayarlanır.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/ekran-goruntuleri/profil-altyazi-ses.jpg" width="800" alt="Oyun profili: altyazı, iki ek bölge ve ses çevirisi alanı; okunan metin, seçilen bölge ve OCR'a giden görüntü">
+  <br>
+  <sub>Soldaki sahnenin oyun profili: <b>Altyazı</b> bölgesi okunuyor, <b>Ses çevirisi</b> balonunun yeri seçili. Altta okunan metin,
+  duyulan konuşma ve OCR'a giden görüntü canlı izleniyor.</sub>
 </p>
 
 ### Kurulum (2 dakika)
