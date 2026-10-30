@@ -85,7 +85,7 @@ Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline
 <p align="center">
   <img src="assets/ekran-goruntuleri/ana-pencere.png" width="300" alt="macOS ana pencere: Elgato Studio penceresi kaynak olarak seçili, Apple çeviri motoru aktif, sesli konuşma çevirisi açık">
   &nbsp;&nbsp;
-  <img src="assets/ekran-goruntuleri/ana-pencere-windows.png" width="300" alt="Windows ana pencere: koyu tema, yakalama kaynağı, canlı çeviri, dil seçimi, çeviri motoru ve sesli konuşma çevirisi">
+  <img src="assets/ekran-goruntuleri/ana-pencere-windows.png" width="262" alt="Windows ana pencere: koyu tema, yakalama kaynağı, canlı çeviri, dil seçimi, çeviri motoru ve sesli konuşma çevirisi">
   <br>
   <sub>Ana pencere: solda <b>macOS</b>, sağda <b>Windows</b>.</sub>
 </p>
