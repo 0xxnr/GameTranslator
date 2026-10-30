@@ -143,6 +143,7 @@ Dil paketi, bir oyunun **"orijinal metin → Türkçe çeviri"** listesidir. Pak
 -Desteklenen: Unreal Engine .locres, Rockstar .gxt2, Bethesda .strings, .yml, XML, JSON, CSV / TSV / TXT, .po.
 -Sağ üstteki Oyun rehberi hangi oyunun dosyasının nerede olduğunu gösterir.
 
+
 </td>
 </tr>
 <tr>
