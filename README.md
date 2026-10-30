@@ -133,25 +133,32 @@ hataları, eksik noktalama ve baştaki konuşmacı adı tolere edilir; pakette b
 
 <table>
 <tr>
-<td width="33%" valign="top"><img src="assets/ekran-goruntuleri/dil-paketleri-ayarlar.png" alt="Ayarlar: Dil paketleri, ne zaman kullanılsın seçimi ve paket listesi"><br>
-<b>Ayarlar › Dil paketleri</b><br>
-<b>Ne zaman kullanılsın:</b> "Önce dil paketi, bulamazsa çeviri motoru" ya da "Yalnızca internet yokken (ya da motor hata verince)".
-<b>İnternet</b> durumu görünür; bağlantı kesilince paket kendiliğinden devreye girer. Her paketin çeviri sayısı, oyunu ve dil yönü
-listelenir; tek tıkla <b>dışa aktar</b> ya da <b>sil</b>. <b>Dil paketi ekle</b> hazır paketi içeri alır, <b>Örnek paket kaydet</b>
-elle doldurmak için şablon verir.</td>
-<td width="33%" valign="top"><img src="assets/ekran-goruntuleri/dil-paketi-dosyalardan.png" alt="Dil paketi oluştur: oyun dil dosyalarından"><br>
+<td width="50%" valign="top"><img src="assets/ekran-goruntuleri/dil-paketi-dosyalardan.png" alt="Dil paketi oluştur: oyun dil dosyalarından"><br>
 <b>Oyun dil dosyalarından</b><br>
-Oyunun <b>orijinal</b> (ör. İngilizce) ve <b>Türkçe</b> dil dosyalarını seç; aynı anahtarlı metinler eşleşir. Renk kodları, düğme
-simgeleri ve yer tutucular temizlenir. Birden çok dosya birlikte seçilebilir. Paket adını yaz, <b>Önizle</b> ile eşleşen çeviri
-sayısını ve örnekleri gör, <b>Paketi oluştur</b>.</td>
-<td width="33%" valign="top"><img src="assets/ekran-goruntuleri/dil-paketi-tablodan.png" alt="Dil paketi oluştur: çok dilli tablodan"><br>
+Oyunun <b>orijinal</b> (ör. İngilizce) ve <b>Türkçe</b> dil dosyalarını seç; aynı anahtarlı metinler eşleşir. Renk kodları,
+düğme simgeleri ve yer tutucular temizlenir. Birden çok dosya birlikte seçilebilir. Paket adını yaz, <b>Önizle</b> ile eşleşen
+çeviri sayısını ve örnekleri gör, <b>Paketi oluştur</b>.</td>
+<td width="50%" valign="top"><img src="assets/ekran-goruntuleri/dil-paketi-tablodan.png" alt="Dil paketi oluştur: çok dilli tablodan"><br>
 <b>Çok dilli tablodan</b><br>
-Her dilin ayrı sütunda olduğu bir tablo seç (<code>.csv</code>, <code>.tsv</code>, <code>.txt</code>, <code>.json</code>). Orijinal
-ve Türkçe sütun kendiliğinden bulunur, istersen değiştirirsin; önizleyip paketi oluşturursun.</td>
+Her dilin ayrı sütunda olduğu bir tablo seç (<code>.csv</code>, <code>.tsv</code>, <code>.txt</code>, <code>.json</code>).
+Orijinal ve Türkçe sütun kendiliğinden bulunur, istersen değiştirirsin; önizleyip paketi oluşturursun.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><img src="assets/ekran-goruntuleri/dil-paketleri-ayarlar.png" alt="Ayarlar: Dil paketleri, ne zaman kullanılsın seçimi ve paket listesi"></td>
+<td width="50%" valign="top">
+
+### Ayarlar › Dil paketleri
+- **Ne zaman kullanılsın:** "Önce dil paketi, bulamazsa çeviri motoru" ya da "Yalnızca internet yokken (ya da motor hata verince)".
+- **İnternet** durumu görünür; bağlantı kesilince paket kendiliğinden devreye girer.
+- Eklenen paketler **çeviri sayısı**, oyun adı ve dil yönüyle listelenir; tek tıkla **dışa aktar** ya da **sil**.
+- **Oyun dosyalarından oluştur**, **Dil paketi ekle** (hazır paketi içeri al) ve **Örnek paket kaydet** (elle doldurmak için şablon).
+- Paketi oyuna bağlamak için: **Oyun Profili › Ayarla › Dil paketi**.
+
+</td>
 </tr>
 </table>
 
-Paketi oyuna bağlamak için: **Oyun Profili › Ayarla › Dil paketi**. Aynı yerden **Oluştur…** ve **Ekle…** ile yeni paket de alınır.
+Oyun Profili › Ayarla › Dil paketi'nden **Oluştur…** ve **Ekle…** ile de yeni paket alınır.
 Paketler Mac ve Windows sürümünde aynı biçimdedir; birinde dışa aktarılan paket diğerinde açılır.
 
 Elle hazırlamak için CSV yeter: 1. sütun orijinal, 2. sütun çeviri ([örnek paket](dil-paketleri/ornek-dil-paketi.csv)).
