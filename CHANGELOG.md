@@ -3,16 +3,12 @@
 İndirme: [Sürümler](https://github.com/0xxnr/GameTranslator/releases)
 
 ## 1.5.0 — Oyun dil paketleri
-- **Dil paketi:** bir oyunun "orijinal metin → çeviri" listesini uygulamaya ekleyip oyun profiline bağlayabilirsin. O oyun seçiliyken ekrandan okunan yazı önce pakette aranır ve **internet olmadan** da çevrilir.
-- **Akıllı eşleşme:** ekrandan okunan yazıdaki küçük harf hataları, eksik noktalama, büyük/küçük harf farkı ve baştaki konuşmacı adı tolere edilir. Emin olunamayan eşleşmeler kullanılmaz, çeviri motoruna bırakılır.
-- **İki kullanım şekli** (Ayarlar › Dil paketleri): "Önce dil paketi, bulamazsa çeviri motoru" ya da "Yalnızca internet yokken". İnternet kesilince ya da çeviri motoru hata verince paket kendiliğinden devreye girer.
-- **Biçimler:** CSV / TSV (Excel, Numbers, Google E-Tablolar ile hazırlanabilir), TXT ("orijinal = çeviri"), JSON ve PO.
-- **Paylaşım:** paketler dışa aktarılıp başkalarıyla paylaşılabilir; "Örnek paket kaydet" ile hazır bir şablon alınır.
-- Oyun Profili › Ayarla'da yeni **Dil paketi** seçimi; Ayarlar'da paket listesi ve internet durumu.
-- **Oyun dosyalarından paket oluştur:** oyunun orijinal ve Türkçe dil dosyaları anahtara göre eşleştirilip paket yapılır. Desteklenen biçimler: Unreal Engine `.locres` (tüm sürümler), Rockstar `.gxt2` (GTA V, RDR2) .strings` (FromSoftware `.fmg` dışa aktarımı), JSON, CSV, PO. Birden çok dosya birlikte seçilebilir.
-- **Çok dilli tablodan paket:** dillerin ayrı sütunlarda olduğu tablolarda (Unity, Godot, RE Engine dışa aktarımları) İngilizce ve Türkçe sütun kendiliğinden bulunur.
-- Oyun metinlerindeki renk kodları, düğme simgeleri, etiketler ve yer tutucular temizlenir; önizlemede eşleşen çeviri sayısı ve örnekler görünür.
-- **Oyun rehberi:** Türkçesi olmayan güncel PS5 oyunları için dil dosyasının biçimi, yeri ve çıkarma yolu (indirme sayfasında).
+- **İnternetsiz çeviri:** oyun profiline bir dil paketi ("orijinal metin → çeviri" listesi) bağla; o oyunda okunan yazı önce pakette aranır, internet olmadan ve anında çevrilir.
+- **Akıllı eşleşme:** küçük okuma hataları, eksik noktalama ve baştaki konuşmacı adı tolere edilir; emin olunamayan yazılar çeviri motoruna bırakılır.
+- **Ne zaman kullanılsın:** "Önce dil paketi, bulamazsa çeviri motoru" ya da "Yalnızca internet yokken".
+- **Paket oluştur:** oyunun orijinal ve Türkçe dil dosyalarından (.locres, .gxt2, .strings, XML, JSON, CSV, PO) ya da çok dilli tablodan otomatik oluşturulur; biçim kodları temizlenir.
+- **Elle hazırla ve paylaş:** CSV / TSV, TXT, JSON ve PO desteklenir; paketler dışa aktarılıp paylaşılabilir.
+- Ana penceredeki geliştirici bağlantısı kaldırıldı; Ayarlar › Hakkında'da duruyor.
 
 ## 1.4.0 — Yazı tipi seçimi
 - **Ayarlar › Görünüm › Yazı tipi:** çeviri yazısının yazı tipi artık seçilebiliyor. Hazır seçenekler: Sistem (SF Pro), Yuvarlak, Serif ve Eş aralıklı.

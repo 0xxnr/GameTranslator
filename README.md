@@ -111,30 +111,25 @@ oynarken başka hiçbir şeye dokunman gerekmez.
 
 ## İnternetsiz çeviri: oyun dil paketleri
 
-Dil paketi, bir oyunun **"orijinal metin → Türkçe çeviri"** listesidir. Paketi oyun profiline bağladığında o oyunda ekrandan okunan yazı
-önce pakette aranır; bulunursa paketteki çeviri gösterilir, hiçbir yere bağlanılmaz. Bulunamayan yazılar seçtiğin çeviri motoruna kalır.
+Oyuna bir dil paketi bağla; ekrandaki yazı oyunun kendi Türkçe metinlerinden **internet olmadan ve anında** çevrilir. (macOS, 1.5.0)
 
-- **Çevrimdışı oynayanlar için:** uçakta, yolda, internetin zayıf olduğu yerde ya da bulut motorun sınırı dolduğunda çeviri sürer.
-- **Doğru terimler:** topluluk Türkçe yamalarındaki ya da kendi düzelttiğin çeviriler kullanılır; eşya, yetenek ve görev adları hep aynı çıkar.
-- **Sıfır gecikme:** paketten gelen çeviri motoru beklemez, altyazı belirdiği anda ekrandadır.
+<table>
+<tr>
+<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-olustur.png" alt="Dil paketi oluştur: oyun dil dosyalarından"><br>
+<b>Oyun dosyalarından oluştur</b><br>Orijinal ve Türkçe dil dosyalarını seç; metinler eşleşir, biçim kodları temizlenir.</td>
+<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-tablo.png" alt="Dil paketi oluştur: çok dilli tablodan"><br>
+<b>Çok dilli tablodan</b><br>Dillerin ayrı sütunlarda olduğu tablodan Türkçe sütun kendiliğinden bulunur.</td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-profil.png" alt="Oyun profili: Dil paketi seçimi"><br>
+<b>Oyuna bağla</b><br>Oyun Profili › Ayarla › Dil paketi'nden seç; bulunamayan yazılar çeviri motoruna kalır.</td>
+<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-ayarlar.png" alt="Ayarlar: Dil paketleri"><br>
+<b>Ne zaman kullanılsın</b><br>"Önce dil paketi" ya da "Yalnızca internet yokken". Paketleri ekle, paylaş, sil.</td>
+</tr>
+</table>
 
-> Dil paketleri macOS sürümünde, **1.5.0** ile geldi.
-
-### Kendi paketini elle hazırla
-1. En kolayı CSV: 1. sütun orijinal, 2. sütun çeviri. Excel, Numbers ya da Google E-Tablolar'da hazırlayıp CSV olarak kaydet.
-   Hazır şablon: [ornek-dil-paketi.csv](dil-paketleri/ornek-dil-paketi.csv).
-2. **Ayarlar › Dil paketleri › Dil paketi ekle…**
-3. **Oyun Profili › Ayarla › Dil paketi**'nden seç.
-
-| Biçim | Örnek |
-|---|---|
-| **CSV / TSV** | `"Bounty Board","Ödül Panosu"` |
-| **TXT** | `Bounty Board = Ödül Panosu` |
-| **JSON** | `{"name": "Oyun adı", "entries": {"Bounty Board": "Ödül Panosu"}}` |
-| **PO** (gettext) | `msgid "Bounty Board"` / `msgstr "Ödül Panosu"` |
-
-**Akıllı eşleşme:** ekrandan okunan yazıdaki küçük harf hataları, eksik noktalama ve baştaki konuşmacı adı tolere edilir. Emin olunamayan
-eşleşmeler kullanılmaz, çeviri motoruna bırakılır; yanlış çeviri gösterilmez.
+Elle hazırlamak için CSV yeter: 1. sütun orijinal, 2. sütun çeviri ([örnek paket](dil-paketleri/ornek-dil-paketi.csv)).
+Desteklenen dosyalar: `.locres`, `.gxt2`, `.strings`, XML, JSON, CSV / TSV / TXT, PO.
 
 <a id="oyun-rehberi"></a>
 
@@ -210,7 +205,7 @@ anahtarlarla eşleştirilir. İki dosya da oyunun **aynı sürümüne** ait olma
 | **Oyun profilleri** | Altyazı + en fazla 3 ek bölge (bildirim, görev, ipucu) + ses çevirisi alanı. Her bölgenin yazı boyutu ayrı ya da otomatik. |
 | **Okuma ayarları** | Büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık. "OCR'a giden" görüntüyü canlı izlersin. |
 | **Sesli konuşma çevirisi** | Altyazısız diyalogları ve NPC sohbetlerini dinler, mor bir balonda çevirir. Konuşma tanıma cihazda çalışır. |
-| **[Dil paketleri](#dil-paketleri)** | Oyunun "orijinal → Türkçe" metinleriyle **internetsiz** çeviri. Oyun dosyalarından (.locres, .gxt2, .strings, .yml, XML) ya da tablodan otomatik oluşturulur; CSV, TXT, JSON, PO ile elle de hazırlanır. |
+| **[Dil paketleri](#dil-paketleri)** | Oyunun "orijinal → Türkçe" metinleriyle **internetsiz** çeviri. Oyun dosyalarından ya da tablodan otomatik oluşturulur, CSV ile elle de hazırlanır. |
 | **Yazı tipi** | Hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf/.otf dosyan; kalınlık ayarı. Ekranda ve OBS'te aynı yazı tipi. |
 | **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Yazı rengi kendiliğinden uyum sağlar. |
 | **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
