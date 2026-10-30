@@ -398,15 +398,16 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 <td>
 
 ### Ana pencere
-- **Başlık:** OBS yayın durumu ve çeviri motorunun türü (ör. **Çevrimdışı**).
-- **Tema** (açık / koyu / sistem), **Ayarlar** ve son çevirinin süresi.
-- **Yakalama kaynağı:** çevrilecek pencere (ör. *Pencere: Elgato Studio*), **Değiştir** ile seçilir.
-- **Oyun profili** seçimi; **Ayarla** okuma bölgelerini ve görüntü işlemeyi açar.
-- **Canlı çeviri:** okunan orijinal metin ve altında çevirisi; durum (ör. *Durduruldu*).
-- **Oyun dili → çeviri dili** ve hızlı motor seçimi: Apple, DeepL, Azure, Google, LLM, Self-Hosted.
-- **Çeviri motoru** kartı: seçili motor ve durumu (**AKTİF** / **AYAR GEREKLİ**).
-- **Sesli konuşma çevirisi** anahtarı.
-- Yeni sürüm çıktığında **Ayrıntılar** düğmeli bilgi şeridi.
+- **Her kaynaktan çeviri:** konsol (PS Remote Play, Elgato, Xbox), PC oyunu, tarayıcı ya da video; pencereyi seçmen yeter.
+- **Canlı altyazı çevirisi:** ekrandaki yazı okunur, Türkçesi orijinalin tam üstüne çizilir.
+- **Oyun profilleri:** her oyun için ayrı okuma bölgeleri, yazı boyutu ve görüntü ayarları.
+- **Altyazı dışı yazılar:** harita, görev ve bildirim panelleri ek bölgelerle ayrı ayrı çevrilir.
+- **Sesli konuşma çevirisi:** altyazısı olmayan konuşmalar dinlenip mor balonda çevrilir.
+- **İnternetsiz çeviri:** oyun dil paketleriyle bağlantı olmadan, anında çeviri.
+- **Çeviri motoru seçimi:** Apple (çevrimdışı, ücretsiz), DeepL, Azure, Google, yapay zekâ (LLM) ya da kendi sunucun.
+- **OBS yayın desteği:** çeviriler şeffaf katman olarak yayına düşer, ayrı kaynaklara bölünebilir.
+- **Kısayollar:** oyundan çıkmadan çeviriyi başlat, durdur, gizle.
+- **Otomatik güncelleme:** yeni sürüm uygulama içinden, imzası doğrulanarak kurulur.
 
 </td>
 </tr>
