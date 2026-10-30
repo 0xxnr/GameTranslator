@@ -126,22 +126,33 @@ oynarken başka hiçbir şeye dokunman gerekmez.
 
 ## İnternetsiz çeviri: oyun dil paketleri
 
-Oyuna bir dil paketi bağla; ekrandaki yazı oyunun kendi Türkçe metinlerinden **internet olmadan ve anında** çevrilir. (macOS, 1.5.0)
+Oyuna bir dil paketi bağla; ekrandaki yazı oyunun kendi Türkçe metinlerinden **internet olmadan ve anında** çevrilir.
+Paketi bir kez oluşturursun, oyun profiline bağlarsın; o oyun seçiliyken okunan her yazı önce pakette aranır. Küçük okuma
+hataları, eksik noktalama ve baştaki konuşmacı adı tolere edilir; pakette bulunamayan yazılar çeviri motoruna kalır.
+(macOS ve Windows, 1.5.1)
 
 <table>
 <tr>
-<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-olustur.png" alt="Dil paketi oluştur: oyun dil dosyalarından"><br>
-<b>Oyun dosyalarından oluştur</b><br>Orijinal ve Türkçe dil dosyalarını seç; metinler eşleşir, biçim kodları temizlenir.</td>
-<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-tablo.png" alt="Dil paketi oluştur: çok dilli tablodan"><br>
-<b>Çok dilli tablodan</b><br>Dillerin ayrı sütunlarda olduğu tablodan Türkçe sütun kendiliğinden bulunur.</td>
-</tr>
-<tr>
-<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-profil.png" alt="Oyun profili: Dil paketi seçimi"><br>
-<b>Oyuna bağla</b><br>Oyun Profili › Ayarla › Dil paketi'nden seç; bulunamayan yazılar çeviri motoruna kalır.</td>
-<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-ayarlar.png" alt="Ayarlar: Dil paketleri"><br>
-<b>Ne zaman kullanılsın</b><br>"Önce dil paketi" ya da "Yalnızca internet yokken". Paketleri ekle, paylaş, sil.</td>
+<td width="33%" valign="top"><img src="assets/ekran-goruntuleri/dil-paketleri-ayarlar.png" alt="Ayarlar: Dil paketleri, ne zaman kullanılsın seçimi ve paket listesi"><br>
+<b>Ayarlar › Dil paketleri</b><br>
+<b>Ne zaman kullanılsın:</b> "Önce dil paketi, bulamazsa çeviri motoru" ya da "Yalnızca internet yokken (ya da motor hata verince)".
+<b>İnternet</b> durumu görünür; bağlantı kesilince paket kendiliğinden devreye girer. Her paketin çeviri sayısı, oyunu ve dil yönü
+listelenir; tek tıkla <b>dışa aktar</b> ya da <b>sil</b>. <b>Dil paketi ekle</b> hazır paketi içeri alır, <b>Örnek paket kaydet</b>
+elle doldurmak için şablon verir.</td>
+<td width="33%" valign="top"><img src="assets/ekran-goruntuleri/dil-paketi-dosyalardan.png" alt="Dil paketi oluştur: oyun dil dosyalarından"><br>
+<b>Oyun dil dosyalarından</b><br>
+Oyunun <b>orijinal</b> (ör. İngilizce) ve <b>Türkçe</b> dil dosyalarını seç; aynı anahtarlı metinler eşleşir. Renk kodları, düğme
+simgeleri ve yer tutucular temizlenir. Birden çok dosya birlikte seçilebilir. Paket adını yaz, <b>Önizle</b> ile eşleşen çeviri
+sayısını ve örnekleri gör, <b>Paketi oluştur</b>.</td>
+<td width="33%" valign="top"><img src="assets/ekran-goruntuleri/dil-paketi-tablodan.png" alt="Dil paketi oluştur: çok dilli tablodan"><br>
+<b>Çok dilli tablodan</b><br>
+Her dilin ayrı sütunda olduğu bir tablo seç (<code>.csv</code>, <code>.tsv</code>, <code>.txt</code>, <code>.json</code>). Orijinal
+ve Türkçe sütun kendiliğinden bulunur, istersen değiştirirsin; önizleyip paketi oluşturursun.</td>
 </tr>
 </table>
+
+Paketi oyuna bağlamak için: **Oyun Profili › Ayarla › Dil paketi**. Aynı yerden **Oluştur…** ve **Ekle…** ile yeni paket de alınır.
+Paketler Mac ve Windows sürümünde aynı biçimdedir; birinde dışa aktarılan paket diğerinde açılır.
 
 Elle hazırlamak için CSV yeter: 1. sütun orijinal, 2. sütun çeviri ([örnek paket](dil-paketleri/ornek-dil-paketi.csv)).
 Desteklenen dosyalar: `.locres`, `.gxt2`, `.strings`, XML, JSON, CSV / TSV / TXT, PO.
@@ -436,7 +447,7 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 </td>
 </tr>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-obs.png" alt="Ayarlar: OBS yayın"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-obs-2.png" alt="Ayarlar: OBS yayın"></td>
 <td>
 
 ### OBS / Yayın
@@ -449,12 +460,12 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 </td>
 </tr>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-obs-stil.png" alt="Ayarlar: OBS yayın görünümü"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-obs-stil-2.png" alt="Ayarlar: OBS yayın görünümü"></td>
 <td>
 
 ### Yayın görünümü
 - **Konum** (Alt / Orta / Üst) ve **Yazı boyutu** (px).
-- **Arka plan** (ör. Kutu), **Kutu rengi** ve **Saydamlık**; "Yayında böyle görünür" önizlemesi.
+- **Arka plan** (ör. Kutu) ve **Kutu rengi** (ör. Ekrandakiyle aynı); "Yayında böyle görünür" önizlemesi.
 - **Orijinal metni de göster**, **Sesli konuşma çevirisini göster**, **Ek bölgeleri göster**.
 - **Gelişmiş:** port ve ağdaki diğer bilgisayarların bağlanması (iki bilgisayarlı yayın).
 - **Çeviriyi metin dosyasına da yaz:** OBS Metin kaynağı için.
@@ -462,7 +473,7 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 </td>
 </tr>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-ses-kisayollar.png" alt="Ayarlar: sesli konuşma çevirisi, kısayollar, izinler"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-ses-kisayollar-2.png" alt="Ayarlar: sesli konuşma çevirisi, kısayollar, izinler"></td>
 <td>
 
 ### Ses çevirisi, kısayollar ve izinler
@@ -473,7 +484,7 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 </td>
 </tr>
 <tr>
-<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-guncellemeler.png" alt="Ayarlar: güncellemeler ve hakkında"></td>
+<td width="42%"><img src="assets/ekran-goruntuleri/ayarlar-guncellemeler-2.png" alt="Ayarlar: güncellemeler ve hakkında"></td>
 <td>
 
 ### Güncellemeler ve hakkında
