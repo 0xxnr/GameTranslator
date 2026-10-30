@@ -2,13 +2,18 @@
 
 İndirme: [Sürümler](https://github.com/0xxnr/GameTranslator/releases)
 
+## 1.5.1 — Sadeleştirme
+- Uygulamadaki oyun ve şirket adları kaldırıldı; dil dosyası türleri yalnızca uzantılarıyla gösteriliyor.
+- `.yml` dil dosyası desteği kaldırıldı.
+- Uygulama içindeki rehber bağlantıları kaldırıldı.
+- Ana penceredeki geliştirici bağlantısı kaldırıldı; Ayarlar › Hakkında'da duruyor.
+
 ## 1.5.0 — Oyun dil paketleri
 - **İnternetsiz çeviri:** oyun profiline bir dil paketi ("orijinal metin → çeviri" listesi) bağla; o oyunda okunan yazı önce pakette aranır, internet olmadan ve anında çevrilir.
 - **Akıllı eşleşme:** küçük okuma hataları, eksik noktalama ve baştaki konuşmacı adı tolere edilir; emin olunamayan yazılar çeviri motoruna bırakılır.
 - **Ne zaman kullanılsın:** "Önce dil paketi, bulamazsa çeviri motoru" ya da "Yalnızca internet yokken".
 - **Paket oluştur:** oyunun orijinal ve Türkçe dil dosyalarından (.locres, .gxt2, .strings, XML, JSON, CSV, PO) ya da çok dilli tablodan otomatik oluşturulur; biçim kodları temizlenir.
 - **Elle hazırla ve paylaş:** CSV / TSV, TXT, JSON ve PO desteklenir; paketler dışa aktarılıp paylaşılabilir.
-- Ana penceredeki geliştirici bağlantısı kaldırıldı; Ayarlar › Hakkında'da duruyor.
 
 ## 1.4.0 — Yazı tipi seçimi
 - **Ayarlar › Görünüm › Yazı tipi:** çeviri yazısının yazı tipi artık seçilebiliyor. Hazır seçenekler: Sistem (SF Pro), Yuvarlak, Serif ve Eş aralıklı.
