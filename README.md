@@ -66,6 +66,21 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
   <a href="https://github.com/0xxnr/GameTranslator/blob/main/assets/tanitim-2.mp4"><b>Sesli videoyu izle (1 dk)</b></a></sub>
 </p>
 
+### Altyazı ve konuşma aynı anda
+
+<p align="center">
+  <img src="assets/ekran-goruntuleri/oyun-altyazi-ses-1.jpg" width="49%" alt="Oyun sahnesi: altyazı Türkçe çevrilmiş, sağ üstte mor balonda konuşma çevirisi">
+  <img src="assets/ekran-goruntuleri/oyun-altyazi-ses-2.jpg" width="49%" alt="Oyun sahnesi: Türkçe çeviri orijinal İngilizce altyazının hemen üstünde, sağ üstte konuşma çevirisi">
+  <br>
+  <sub>Altyazı Türkçe olarak orijinalin üstünde; altyazısı olmayan arka plan konuşmaları sağ üstteki <b>mor balonda</b> çevriliyor.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/ekran-goruntuleri/profil-altyazi-ses.jpg" width="800" alt="Oyun profili: altyazı, iki ek bölge ve ses çevirisi alanı; okunan metin, seçilen bölge ve OCR'a giden görüntü">
+  <br>
+  <sub>Aynı sahnenin profili: <b>Altyazı</b> bölgesi okunuyor, <b>Ses çevirisi</b> balonunun yeri seçili. Altta okunan metin ve OCR'a giden görüntü canlı izleniyor.</sub>
+</p>
+
 ### Altyazı dışındaki yazılar da çevrilir
 
 Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline eklediğin her bölge ayrı okunur ve ayrı çevrilir.
@@ -279,6 +294,12 @@ Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar
   <img src="assets/obs-sahne.png" width="720" alt="OBS Studio: oyun görüntüsü üzerinde Türkçe çeviri; Kaynaklar listesinde Alt Yazı, Ses ve Ek açıklama ayrı Tarayıcı kaynakları">
   <br>
   <sub>Gerçek bir OBS sahnesi: <b>Alt Yazı</b>, <b>Ses</b> ve <b>Ek açıklama</b> ayrı Tarayıcı kaynakları olarak Elgato görüntüsünün üstünde.</sub>
+</p>
+
+<p align="center">
+  <img src="assets/ekran-goruntuleri/obs-ve-profil.jpg" width="900" alt="Solda OBS: oyun görüntüsü üzerinde Türkçe çeviri yayında; sağda Game Translator oyun profili">
+  <br>
+  <sub>Solda OBS yayını, sağda oyun profili: okunan İngilizce altyazı yayına Türkçe olarak düşüyor.</sub>
 </p>
 
 Ayarlar › OBS / Yayın › **Yazıları OBS'te ayrı yerlere koy** altındaki adresleri ayrı Tarayıcı kaynakları olarak ekle
