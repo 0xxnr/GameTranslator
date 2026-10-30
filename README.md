@@ -124,17 +124,6 @@ Dil paketi, bir oyunun **"orijinal metin → Türkçe çeviri"** listesidir. Pak
 > Dil paketleri macOS sürümünde, **1.5.0** ile geldi.
 
 <table>
-<tr>
-<td width="50%"><img src="assets/ekran-goruntuleri/dil-paketi-olustur.png" alt="Dil paketi oluştur: Red Dead Redemption 2'nin İngilizce ve Türkçe .gxt2 dosyalarından 3 çeviri eşleşti, örnek eşleşmeler listeleniyor"></td>
-<td>
-
-### Oyun dosyalarından paket oluştur
-- Oyunun **orijinal** (ör. İngilizce) ve **Türkçe** dil dosyalarını seç; metinler oyunun kendi anahtarlarıyla eşleştirilir.
-- Görselde Red Dead Redemption 2'nin `.gxt2` dosyaları: *"3 orijinal, 3 Türkçe metin okundu → 3 çeviri eşleşti."*
-- **Örnek eşleşmeler** önizlemesi: *Wanted in New Hanover → New Hanover'da aranıyor*.
-- Renk kodları, düğme simgeleri (`~INPUT_CONTEXT~`), etiketler ve yer tutucular kendiliğinden temizlenir.
-- Desteklenen: Unreal Engine `.locres`, Rockstar `.gxt2`, Bethesda `.strings`, `.yml`, XML, JSON, CSV / TSV / TXT, `.po`.
-- Sağ üstteki **Oyun rehberi** hangi oyunun dosyasının nerede olduğunu gösterir.
 
 </td>
 </tr>
