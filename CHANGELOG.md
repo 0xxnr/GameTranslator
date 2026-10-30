@@ -9,7 +9,7 @@
 - **Biçimler:** CSV / TSV (Excel, Numbers, Google E-Tablolar ile hazırlanabilir), TXT ("orijinal = çeviri"), JSON ve PO.
 - **Paylaşım:** paketler dışa aktarılıp başkalarıyla paylaşılabilir; "Örnek paket kaydet" ile hazır bir şablon alınır.
 - Oyun Profili › Ayarla'da yeni **Dil paketi** seçimi; Ayarlar'da paket listesi ve internet durumu.
-- **Oyun dosyalarından paket oluştur:** oyunun orijinal ve Türkçe dil dosyaları anahtara göre eşleştirilip paket yapılır. Desteklenen biçimler: Unreal Engine `.locres` (tüm sürümler), Rockstar `.gxt2` (GTA V, RDR2), Bethesda `.strings`, Paradox `.yml`, XML (FromSoftware `.fmg` dışa aktarımı), JSON, CSV, PO. Birden çok dosya birlikte seçilebilir.
+- **Oyun dosyalarından paket oluştur:** oyunun orijinal ve Türkçe dil dosyaları anahtara göre eşleştirilip paket yapılır. Desteklenen biçimler: Unreal Engine `.locres` (tüm sürümler), Rockstar `.gxt2` (GTA V, RDR2) .strings` (FromSoftware `.fmg` dışa aktarımı), JSON, CSV, PO. Birden çok dosya birlikte seçilebilir.
 - **Çok dilli tablodan paket:** dillerin ayrı sütunlarda olduğu tablolarda (Unity, Godot, RE Engine dışa aktarımları) İngilizce ve Türkçe sütun kendiliğinden bulunur.
 - Oyun metinlerindeki renk kodları, düğme simgeleri, etiketler ve yer tutucular temizlenir; önizlemede eşleşen çeviri sayısı ve örnekler görünür.
 - **Oyun rehberi:** Türkçesi olmayan güncel PS5 oyunları için dil dosyasının biçimi, yeri ve çıkarma yolu (indirme sayfasında).
