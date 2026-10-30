@@ -135,6 +135,13 @@ Dil paketi, bir oyunun **"orijinal metin → Türkçe çeviri"** listesidir. Pak
 - Her dilin ayrı sütunda olduğu tablolar: Unity (I2 Localization), Godot, ya da RE Engine / FromSoftware dosyalarının dışa aktarılmış hâli.
 - Tabloyu seç; **İngilizce ve Türkçe sütunlar kendiliğinden bulunur**, istersen değiştir.
 - **Önizle** ile kaç çeviri bulunduğunu gör, paketine bir ad ver ve **Paketi oluştur**.
+-Oyun dosyalarından paket oluştur
+-Oyunun orijinal (ör. İngilizce) ve Türkçe dil dosyalarını seç; metinler oyunun kendi anahtarlarıyla eşleştirilir.
+-Görselde Red Dead Redemption 2'nin .gxt2 dosyaları: "3 orijinal, 3 Türkçe metin okundu → 3 çeviri eşleşti."
+-Örnek eşleşmeler önizlemesi: Wanted in New Hanover → New Hanover'da aranıyor.
+-Renk kodları, düğme simgeleri (~INPUT_CONTEXT~), etiketler ve yer tutucular kendiliğinden temizlenir.
+-Desteklenen: Unreal Engine .locres, Rockstar .gxt2, Bethesda .strings, .yml, XML, JSON, CSV / TSV / TXT, .po.
+-Sağ üstteki Oyun rehberi hangi oyunun dosyasının nerede olduğunu gösterir.
 
 </td>
 </tr>
