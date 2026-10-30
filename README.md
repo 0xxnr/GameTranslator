@@ -69,16 +69,9 @@ PS Remote Play, Elgato, GeForce NOW, Steam Link, tarayıcı ve video oynatıcıl
 ### Altyazı ve konuşma aynı anda
 
 <p align="center">
-  <img src="assets/ekran-goruntuleri/oyun-altyazi-ses-1.jpg" width="49%" alt="Oyun sahnesi: altyazı Türkçe çevrilmiş, sağ üstte mor balonda konuşma çevirisi">
-  <img src="assets/ekran-goruntuleri/oyun-altyazi-ses-2.jpg" width="49%" alt="Oyun sahnesi: Türkçe çeviri orijinal İngilizce altyazının hemen üstünde, sağ üstte konuşma çevirisi">
-  <br>
-  <sub>Altyazı Türkçe olarak orijinalin üstünde; altyazısı olmayan arka plan konuşmaları sağ üstteki <b>mor balonda</b> çevriliyor.</sub>
-</p>
-
-<p align="center">
   <img src="assets/ekran-goruntuleri/profil-altyazi-ses.jpg" width="800" alt="Oyun profili: altyazı, iki ek bölge ve ses çevirisi alanı; okunan metin, seçilen bölge ve OCR'a giden görüntü">
   <br>
-  <sub>Aynı sahnenin profili: <b>Altyazı</b> bölgesi okunuyor, <b>Ses çevirisi</b> balonunun yeri seçili. Altta okunan metin ve OCR'a giden görüntü canlı izleniyor.</sub>
+  <sub>Oyun profili: <b>Altyazı</b> bölgesi okunuyor, <b>Ses çevirisi</b> balonunun yeri seçili. Altta okunan metin ve OCR'a giden görüntü canlı izleniyor.</sub>
 </p>
 
 ### Altyazı dışındaki yazılar da çevrilir
@@ -298,6 +291,16 @@ Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar
 | **Ses çevirisi de yayında** | Altyazısız diyaloglar ayrı mor balonda yayına düşer. |
 | **İki bilgisayarlı yayın** | Yayın başka bir bilgisayardaysa, aynı ağdaki OBS de bağlanabilir. |
 | **Bağlantı durumu** | Ayarlar'da bağlı yayın sayfası sayısı ve son gönderilen çeviri saati görünür; **Test metni gönder** ile konumu çeviri olmadan ayarlarsın. |
+
+### Yayında nasıl görünür
+
+<p align="center">
+  <img src="assets/ekran-goruntuleri/oyun-altyazi-ses-2.jpg" width="49%" alt="Yayın görüntüsü: Türkçe altyazı orijinal İngilizce altyazının üstünde, sağ üstte mor balonda konuşma çevirisi">
+  <img src="assets/ekran-goruntuleri/oyun-altyazi-ses-1.jpg" width="49%" alt="Yayın görüntüsü: Türkçe altyazı ekranın altında, sağ üstte mor balonda arka plan konuşmasının çevirisi">
+  <br>
+  <sub>Yayına düşen görüntü: altyazının Türkçesi kutu içinde orijinalin hemen üstünde; altyazısı olmayan arka plan konuşmaları
+  sağ üstteki <b>mor balonda</b> ayrı kaynak olarak görünür. Konum, boyut ve kutu rengi uygulamadan canlı ayarlanır.</sub>
+</p>
 
 ### Kurulum (2 dakika)
 1. Game Translator › **Ayarlar › OBS / Yayın › OBS tarayıcı kaynağını etkinleştir.** Adres görünür: `http://127.0.0.1:8765/` › **Adresi kopyala**.
