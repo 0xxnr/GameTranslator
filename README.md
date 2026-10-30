@@ -140,7 +140,6 @@ eşleşmeler kullanılmaz, çeviri motoruna bırakılır; yanlış çeviri göst
 
 ## Oyun rehberi: Türkçesi olmayan güncel PS5 oyunları
 
-Aşağıdaki oyunların PS5 sürümünde Türkçe yok (PlayStation Türkiye mağaza sayfalarındaki ekran dilleri, Ekim 2026).
 Hepsi Game Translator ile **çeviri motoruyla** (Apple ya da yapay zekâ) anında çevrilebilir. Oyunun PC sürümü varsa,
 dil dosyalarından **dil paketi** oluşturup çeviriyi oyunun kendi metinleriyle ve internetsiz yapabilirsin.
 
