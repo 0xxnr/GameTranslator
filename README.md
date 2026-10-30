@@ -111,9 +111,6 @@ oynarken başka hiçbir şeye dokunman gerekmez.
 
 ## İnternetsiz çeviri: oyun dil paketleri
 
-<p align="center"><b>İnternet yok mu, kotan mı bitti, ya da oyunun resmi metinlerini mi görmek istiyorsun?</b><br>
-Dil paketiyle çeviri oyunun kendi metinlerinden gelir: <b>internetsiz, anında, ücretsiz ve her seferinde aynı.</b></p>
-
 Dil paketi, bir oyunun **"orijinal metin → Türkçe çeviri"** listesidir. Paketi oyun profiline bağladığında o oyunda ekrandan okunan yazı
 önce pakette aranır; bulunursa paketteki çeviri gösterilir, hiçbir yere bağlanılmaz. Bulunamayan yazılar seçtiğin çeviri motoruna kalır.
 
