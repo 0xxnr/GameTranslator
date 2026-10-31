@@ -268,6 +268,12 @@ Altyazı, ek bölgeler (bildirim, görev, ipucu…) ve ses balonu artık birbiri
 
 **Mikrofon çevirisi** (macOS, 1.7.0): mikrofonunu seç, konuştukların istediğin dile çevrilsin. Yayında kendi balonuyla `/mikrofon` adresinden OBS'e düşer; istersen sesli de okunur.
 
+<p align="center">
+  <img src="assets/ekran-goruntuleri/ayarlar-mikrofon-cevirisi.jpg" width="440" alt="Ayarlar › Mikrofon çevirisi: mikrofon, konuşulan dil, çeviri dili, canlı balon önizlemesi ve OBS adresi">
+  <br>
+  <sub>Ayarlar › <b>Mikrofon çevirisi</b></sub>
+</p>
+
 **Çok dilli arayüz** (macOS, 1.7.0): uygulama Mac'in dilinde açılır: Türkçe, English, Deutsch, Français, Español, Italiano, Português (Brasil), Русский, 日本語, 한국어, 简体中文.
 
 ## Özellikler
