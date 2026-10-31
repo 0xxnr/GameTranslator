@@ -255,6 +255,12 @@ Altyazı, ek bölgeler (bildirim, görev, ipucu…) ve ses balonu artık birbiri
 
 **Sesli dublaj** (macOS, 1.7.0): çeviriler canlı olarak sesli okunur. Altyazılar, altyazısız NPC konuşmaları, ek bölgeler ve mikrofon çevirisi ayrı ayrı açılabilir.
 
+<p align="center">
+  <img src="assets/ekran-goruntuleri/ayarlar-sesli-dublaj.jpg" width="440" alt="Ayarlar › Sesli dublaj: ses motoru, ses, model, hız, ses düzeyi ve seslendirilecek çeviriler">
+  <br>
+  <sub>Ayarlar › <b>Sesli dublaj</b></sub>
+</p>
+
 - **Ücretsiz:** macOS sesleri; internet gerekmez. Gelişmiş ve Premium sesler indirilirse daha doğal okur.
 - **Daha doğal bulut sesleri:** ElevenLabs, OpenAI uyumlu servisler (kendi ses sunucun da olur) ve Azure Speech. Anahtar Mac'in Anahtar Zinciri'nde saklanır.
 - Hız, ses düzeyi ve yeni cümle gelince öncekini kesme ayarlanabilir; bulut sesi çalışmazsa macOS sesine geçer.
