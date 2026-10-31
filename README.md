@@ -91,10 +91,6 @@ Harita açıklamaları, görev ve ipucu panelleri, bildirimler… Oyun profiline
   <sub>Ana pencere: solda <b>macOS</b>, sağda <b>Windows</b>.</sub>
 </p>
 
-<p align="center">
-  <img src="assets/ekran-goruntuleri/oyun-profili.png" width="480" alt="Oyun profili düzenleyici: altyazı, üç ek bölge ve ses çevirisi alanı canlı önizleme üzerinde">
-</p>
-
 <a id="konsol-oyunlari"></a>
 
 ## Konsol oyunlarını anlık çevir
@@ -478,9 +474,6 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 - **Otomatik güncelleme:** yeni sürüm uygulama içinden, imzası doğrulanarak kurulur.
 
 </td>
-</tr>
-<tr>
-<td colspan="2"><img src="assets/ekran-goruntuleri/oyun-profili.png" alt="Oyun profili düzenleyici"></td>
 </tr>
 <tr>
 <td colspan="2">
