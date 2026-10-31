@@ -359,6 +359,12 @@ Altyazının, her ek bölgenin ve ses çevirisinin **kendi adresi** var. Adresle
 altında ve Oyun Profili'nde bölge seçilince görünür; **Kopyala** ile alınır. Her birini OBS'te ayrı bir Tarayıcı kaynağı olarak ekle
 (önerilen boyut **1920 × 300**), sonra sürükleyip kenarlarından boyutlandır. Bu durumda tek adresli kaynağı kaldır.
 
+<p align="center">
+  <img src="assets/ekran-goruntuleri/ayarlar-obs-bolge-adresleri.png" width="440" alt="Ayarlar › OBS / Yayın › Yazıları OBS'te ayrı yerlere koy: altyazı, Bölge 1–4, ses çevirisi ve tüm ek bölgelerin adresleri, her birinin yanında Kopyala düğmesi">
+  <br>
+  <sub>Ayarlar › OBS / Yayın: seçili profilin altyazı, bölge ve ses adresleri; her biri tek tıkla kopyalanır.</sub>
+</p>
+
 | Kaynak | Adres |
 |---|---|
 | Altyazı | `http://127.0.0.1:8765/altyazi` |
