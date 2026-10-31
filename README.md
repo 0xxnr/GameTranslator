@@ -230,24 +230,18 @@ Altyazı, ek bölgeler (bildirim, görev, ipucu…) ve ses balonu artık birbiri
 **Yazı tipi**, **Kalınlık** ve **Arka plan…** yalnızca o bölgeye uygulanır. Ekranda ve OBS yayınında birlikte değişir. (macOS, 1.6.0)
 
 <p align="center">
-  <img src="assets/ekran-goruntuleri/bolge-arka-plan.jpg" width="760" alt="Oyun Profili: Altyazı seçili; yazı tipi, kalınlık, Arka plan paneli ve bölgenin OBS adresi">
+  <img src="assets/ekran-goruntuleri/bolge-arka-plan-temalar.jpg" width="680" alt="Oyun Profili: bölgenin yazı tipi, kalınlık, Arka plan paneli ve bölgenin OBS adresi">
   <br>
-  <sub><b>Arka plan…</b> örnek yazılı bir panel açar: düz seçenekler ya da hazır geçişler seçilir, <b>Kaydet</b> ile o bölgeye yazılır. Sağda bölgenin kendi <b>OBS adresi</b>.</sub>
+  <sub><b>Arka plan…</b> örnek yazılı bir panel açar; seçim önizlemede anında görünür, <b>Kaydet</b> ile yalnızca o bölgeye yazılır. Sağ üstte bölgenin kendi <b>OBS adresi</b>.</sub>
 </p>
 
-<table>
-<tr>
-<td width="33%"><img src="assets/ekran-goruntuleri/arka-plan-gunbatimi.jpg" alt="Neon gün batımı arka planı"><br><b>Neon gün batımı</b><br>Pembe, turuncu ve mor geçiş, camgöbeği neon kenar.</td>
-<td width="33%"><img src="assets/ekran-goruntuleri/arka-plan-okyanus.jpg" alt="Okyanus arka planı"><br><b>Okyanus</b><br>Turkuazdan laciverde geçiş, açık mavi kenar.</td>
-<td width="33%"><img src="assets/ekran-goruntuleri/arka-plan-gece.jpg" alt="Gece neonu arka planı"><br><b>Gece neonu</b><br>Koyu zemin, pembe neon kenar ve camgöbeği parıltı.</td>
-</tr>
-</table>
-
-- **Arka plan:** Genel (Ayarlar'daki), Siyah, Beyaz, Şeffaf, istediğin renk ve saydamlık; ya da hazır geçişler: **Mor cam**, **Neon gün batımı**, **Okyanus**, **Gece neonu**. Hepsi altyazıda, her ek bölgede ve ses balonunda kullanılabilir.
+- **Düz arka plan:** Ayarlar'daki genel arka plan, siyah, beyaz, şeffaf ya da istediğin renk; saydamlığı ayarlanır.
+- **Hazır geçişler:** iki ya da üç renkli geçişli kutular, neon parlayan kenarlarla.
+- **Temalar (1.7.0):** isim plakası tarzında çizimli arka planlar; sağ kenarda bir çizim, neon parlayan yazı ve ışıldayan çerçeve.
+- Hepsi altyazıda, her ek bölgede ve ses balonunda ayrı ayrı seçilebilir.
 - **Yazı tipi:** hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf / .otf dosyan; kalınlık ayrı seçilir. "Genel" seçili bölge Ayarlar'daki yazı tipini kullanır.
 - **Ayrı OBS kaynağı:** her bölgenin kendi adresi var (`/altyazi`, `/bolge-1` … `/bolge-4`, `/ses`). Ayrıntılar: [Yazıları ayrı yerlere koymak](#yazıları-ayrı-yerlere-koymak).
 - En fazla **4 ek bölge** eklenebilir.
-- **Temalar (1.7.0):** isim plakası tarzında çizimli arka planlar: **Palmiye gün batımı**, **Neon şehir**, **Gece sahili** ve **Retro ızgara**. Yazı neon parlar, çerçeve ışıldar.
 
 <a id="sesli-dublaj"></a>
 
