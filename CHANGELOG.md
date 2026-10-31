@@ -2,6 +2,15 @@
 
 İndirme: [Sürümler](https://github.com/0xxnr/GameTranslator/releases)
 
+## 1.6.0 — Her bölgeye ayrı OBS adresi, yazı tipi ve arka plan
+- **Her bölge OBS'te ayrı kaynak:** altyazı, her ek bölge ve ses çevirisinin kendi adresi var: `/altyazi`, `/bolge-1` … `/bolge-4`, `/ses`. Her birini OBS'te ayrı bir Tarayıcı kaynağı olarak ekleyip istediğin yere koyabilirsin.
+- **Adresler iki yerde:** Ayarlar › OBS / Yayın › **Yazıları OBS'te ayrı yerlere koy** altında ve Oyun Profili'nde bölge seçilince; her birinin yanında **Kopyala** düğmesi.
+- **Her bölgeye ayrı yazı tipi:** altyazı, ek bölgeler ve ses çevirisi için ayrı yazı tipi ve kalınlık; ekranda ve OBS'te aynı anda geçerli. "Genel" seçiliyken Ayarlar'daki yazı tipi kullanılır.
+- **Her bölgeye ayrı arka plan:** Oyun Profili'nde **Arka plan…** düğmesi örnek yazılı bir panel açar. Düz seçenekler (Siyah, Beyaz, Şeffaf, istediğin renk ve saydamlık) ya da hazır geçişler seçilip kaydedilir; ekranda ve OBS'te birlikte geçerli.
+- **Hazır geçişli arka planlar:** **Mor cam**, **Neon gün batımı**, **Okyanus** ve **Gece neonu**; altyazıda, her ek bölgede ve ses balonunda kullanılabilir.
+- Ek bölge sayısı 4'e çıktı.
+- Eski `?only=subtitle|speech|zone` OBS adresleri çalışmaya devam eder.
+
 ## 1.5.1 — Sadeleştirme
 - Uygulamadaki oyun ve şirket adları kaldırıldı; dil dosyası türleri yalnızca uzantılarıyla gösteriliyor.
 - `.yml` dil dosyası desteği kaldırıldı.

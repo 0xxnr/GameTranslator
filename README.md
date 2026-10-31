@@ -23,6 +23,7 @@
   &nbsp;·&nbsp; <a href="#dil-paketleri"><b>İnternetsiz çeviri</b></a>
   &nbsp;·&nbsp; <a href="#oyun-rehberi">Oyun rehberi</a>
   &nbsp;·&nbsp; <a href="#kurulum">Kurulum</a>
+  &nbsp;·&nbsp; <a href="#bolge-gorunumu">Bölge görünümü</a>
   &nbsp;·&nbsp; <a href="#özellikler">Özellikler</a>
   &nbsp;·&nbsp; <a href="#obs-ile-yayın"><b>OBS ile yayın</b></a>
   &nbsp;·&nbsp; <a href="#sık-sorulanlar">Sık sorulanlar</a>
@@ -221,18 +222,44 @@ anahtarlarla eşleştirilir. İki dosya da oyunun **aynı sürümüne** ait olma
   Ollama ya da LM Studio ile modeli kendi Mac'inde çalıştırırsan çeviri hem ücretsiz hem de tamamen çevrimdışı olur.
 - Motoru **Ayarlar › Çeviri motoru**'ndan istediğin an değiştirebilirsin; ana penceredeki rozet hangisinin aktif olduğunu gösterir.
 
+<a id="bolge-gorunumu"></a>
+
+## Her bölgeye ayrı yazı tipi, arka plan ve OBS kaynağı
+
+Altyazı, ek bölgeler (bildirim, görev, ipucu…) ve ses balonu artık birbirinden bağımsız görünebilir. Oyun Profili'nde bölgeyi seç;
+**Yazı tipi**, **Kalınlık** ve **Arka plan…** yalnızca o bölgeye uygulanır. Ekranda ve OBS yayınında birlikte değişir. (macOS, 1.6.0)
+
+<p align="center">
+  <img src="assets/ekran-goruntuleri/bolge-arka-plan.jpg" width="760" alt="Oyun Profili: Altyazı seçili; yazı tipi, kalınlık, Arka plan paneli ve bölgenin OBS adresi">
+  <br>
+  <sub><b>Arka plan…</b> örnek yazılı bir panel açar: düz seçenekler ya da hazır geçişler seçilir, <b>Kaydet</b> ile o bölgeye yazılır. Sağda bölgenin kendi <b>OBS adresi</b>.</sub>
+</p>
+
+<table>
+<tr>
+<td width="33%"><img src="assets/ekran-goruntuleri/arka-plan-gunbatimi.jpg" alt="Neon gün batımı arka planı"><br><b>Neon gün batımı</b><br>Pembe, turuncu ve mor geçiş, camgöbeği neon kenar.</td>
+<td width="33%"><img src="assets/ekran-goruntuleri/arka-plan-okyanus.jpg" alt="Okyanus arka planı"><br><b>Okyanus</b><br>Turkuazdan laciverde geçiş, açık mavi kenar.</td>
+<td width="33%"><img src="assets/ekran-goruntuleri/arka-plan-gece.jpg" alt="Gece neonu arka planı"><br><b>Gece neonu</b><br>Koyu zemin, pembe neon kenar ve camgöbeği parıltı.</td>
+</tr>
+</table>
+
+- **Arka plan:** Genel (Ayarlar'daki), Siyah, Beyaz, Şeffaf, istediğin renk ve saydamlık; ya da hazır geçişler: **Mor cam**, **Neon gün batımı**, **Okyanus**, **Gece neonu**. Hepsi altyazıda, her ek bölgede ve ses balonunda kullanılabilir.
+- **Yazı tipi:** hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf / .otf dosyan; kalınlık ayrı seçilir. "Genel" seçili bölge Ayarlar'daki yazı tipini kullanır.
+- **Ayrı OBS kaynağı:** her bölgenin kendi adresi var (`/altyazi`, `/bolge-1` … `/bolge-4`, `/ses`). Ayrıntılar: [Yazıları ayrı yerlere koymak](#yazıları-ayrı-yerlere-koymak).
+- En fazla **4 ek bölge** eklenebilir.
+
 ## Özellikler
 
 | | |
 |---|---|
 | **Yerinde çeviri** | Çeviri, orijinal altyazının üstünde aynı yerde görünür; tıklamalar oyuna geçer. Ana pencerede orijinal ve çeviri yan yana, çeviri süresi (ms) üstte görünür. |
-| **Oyun profilleri** | Altyazı + en fazla 3 ek bölge (bildirim, görev, ipucu) + ses çevirisi alanı. Her bölgenin yazı boyutu ayrı ya da otomatik. |
+| **Oyun profilleri** | Altyazı + en fazla 4 ek bölge (bildirim, görev, ipucu) + ses çevirisi alanı. Her bölgenin yazı boyutu, [yazı tipi ve arka planı](#bolge-gorunumu) ayrı. |
 | **Okuma ayarları** | Büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık. "OCR'a giden" görüntüyü canlı izlersin. |
 | **Sesli konuşma çevirisi** | Altyazısız diyalogları ve NPC sohbetlerini dinler, mor bir balonda çevirir. Konuşma tanıma cihazda çalışır. |
 | **[Dil paketleri](#dil-paketleri)** | Oyunun "orijinal → Türkçe" metinleriyle **internetsiz** çeviri. Oyun dosyalarından ya da tablodan otomatik oluşturulur, CSV ile elle de hazırlanır. |
 | **Yazı tipi** | Hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf/.otf dosyan; kalınlık ayarı. Ekranda ve OBS'te aynı yazı tipi. |
-| **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Yazı rengi kendiliğinden uyum sağlar. |
-| **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, ses ve bildirimler ayrı kaynaklar olarak ayrı yerlere konabilir; kutu rengi yayında ayrı seçilir. |
+| **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Hazır geçişler: Mor cam, Neon gün batımı, Okyanus, Gece neonu. Her bölgeye ayrı seçilebilir. |
+| **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, her ek bölge ve ses çevirisi kendi adresiyle ayrı kaynak olarak ayrı yerlere konabilir; yazı tipi ve arka plan yayında da aynı. |
 | **Çeviri motorları** | Apple (çevrimdışı, ücretsiz), DeepL, Google, Azure, LLM (OpenAI, Ollama, LM Studio), Self-Hosted (LibreTranslate). |
 | **Genel kısayollar** | Oyun öndeyken de çalışır: ⌃⌥T başlat/durdur, ⌃⌥H yazıları gizle, ⌃⌥Y yalnızca yayında gizle (Windows'ta Ctrl+Alt+T / H / Y). |
 | **macOS ve Windows** | Aynı arayüz, aynı oyun profilleri, aynı OBS yayın sayfası; ikisi de otomatik güncellenir. |
@@ -328,17 +355,22 @@ Game Translator, çevirileri **OBS Studio**'ya doğrudan gönderir. Yayıncılar
   <sub>Solda OBS yayını, sağda oyun profili: okunan İngilizce altyazı yayına Türkçe olarak düşüyor.</sub>
 </p>
 
-Ayarlar › OBS / Yayın › **Yazıları OBS'te ayrı yerlere koy** altındaki adresleri ayrı Tarayıcı kaynakları olarak ekle
-(önerilen boyut **1920 × 300**), sonra OBS'te sürükleyip kenarlarından boyutlandır. Bu durumda tek adresli kaynağı kaldır.
+Altyazının, her ek bölgenin ve ses çevirisinin **kendi adresi** var. Adresler Ayarlar › OBS / Yayın › **Yazıları OBS'te ayrı yerlere koy**
+altında ve Oyun Profili'nde bölge seçilince görünür; **Kopyala** ile alınır. Her birini OBS'te ayrı bir Tarayıcı kaynağı olarak ekle
+(önerilen boyut **1920 × 300**), sonra sürükleyip kenarlarından boyutlandır. Bu durumda tek adresli kaynağı kaldır.
 
 | Kaynak | Adres |
 |---|---|
-| Altyazı | `http://127.0.0.1:8765/?only=subtitle` |
-| Ses çevirisi | `http://127.0.0.1:8765/?only=speech` |
-| Bildirimler / ek bölgeler | `http://127.0.0.1:8765/?only=zone` |
+| Altyazı | `http://127.0.0.1:8765/altyazi` |
+| Bölge 1 … Bölge 4 | `http://127.0.0.1:8765/bolge-1` … `/bolge-4` |
+| Ses çevirisi | `http://127.0.0.1:8765/ses` |
+| Tüm ek bölgeler bir arada | `http://127.0.0.1:8765/?only=zone` |
 
-Adresin sonuna parametre ekleyerek kaynak başına ayrı stil verebilirsin:
-`&size=32` (yazı boyutu), `&font=Arial&weight=800` (yazı tipi ve kalınlık), `&pos=top` (konum), `&box=e0245e&alpha=0.8` (kutu rengi ve koyuluğu), `&original=1` (orijinal metni de göster).
+Ek bölgeler profildeki sıralarına göre numaralanır; adresi her zaman uygulamadaki **Kopyala** düğmesinden al. Bölgeye seçtiğin
+yazı tipi ve arka plan yayında da aynı görünür. Eski `?only=subtitle` ve `?only=speech` adresleri çalışmaya devam eder.
+
+Adresin sonuna parametre ekleyerek kaynak başına ayrı stil verebilirsin (ilk parametre `?`, sonrakiler `&` ile):
+`size=32` (yazı boyutu), `font=Arial&weight=800` (yazı tipi ve kalınlık), `pos=top` (konum), `box=e0245e&alpha=0.8` (kutu rengi ve koyuluğu), `original=1` (orijinal metni de göster).
 
 ### İpuçları
 - Oyunu OBS'te **Ekran Yakalama** ile alıyorsan Mac'teki çeviri yazıları zaten yayına girer. Çift görünmesin diye
@@ -424,10 +456,12 @@ API anahtarları macOS **Anahtar Zinciri**'nde saklanır.
 <td colspan="2">
 
 ### Oyun profili
-- **Bölgeler:** Altyazı, Bölge 1–3 ve Ses çevirisi; her biri kendi rengiyle canlı görüntü üzerinde. Seçili bölgenin adı sağ üstten değiştirilir.
+- **Bölgeler:** Altyazı, Bölge 1–4 ve Ses çevirisi; her biri kendi rengiyle canlı görüntü üzerinde. Seçili bölgenin adı sağ üstten değiştirilir.
 - **Çizim:** seçili bölge için sürükleyerek yeni dikdörtgen çizilir, ⌥ (Option) basılıyken sürüklenince bölge taşınır.
 - **İnce ayar:** Sol, Üst, Genişlik ve Yükseklik yüzde olarak adım adım ayarlanır.
 - **Yazı boyutu:** bölge başına otomatik ya da elle; **Ekranda örnek göster** çevirinin oyunda nasıl duracağını gösterir.
+- **Yazı tipi, kalınlık ve [Arka plan…](#bolge-gorunumu):** bölge başına; arka plan paneli örnek yazı üzerinde düz renkler ve hazır geçişler sunar.
+- **OBS adresi:** seçili bölgenin kendi yayın adresi ve kopyala düğmesi.
 - **Okunan metin:** her bölgede okunan yazı ve ses seviyesiyle birlikte son duyulan konuşma.
 - **Seçilen bölge / OCR'a giden:** ham görüntü ve okumaya giden işlenmiş görüntü yan yana.
 - **Okuma ayarları** (tüm bölgeler için): büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık.
