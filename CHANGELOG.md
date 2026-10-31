@@ -2,6 +2,17 @@
 
 İndirme: [Sürümler](https://github.com/0xxnr/GameTranslator/releases)
 
+## 1.7.0 — Sesli dublaj, tema arka planları, mikrofon çevirisi ve çok dilli arayüz
+- **Sesli dublaj:** çeviriler canlı olarak sesli okunur; altyazılar, altyazısız NPC konuşmaları, ek bölgeler ve mikrofon çevirisi ayrı ayrı açılabilir. Ana penceredeki **Sesli dublaj** anahtarıyla açılır, ayarları Ayarlar › Sesli dublaj'da.
+- Ses seçenekleri: ücretsiz ve internetsiz **macOS sesleri** (Gelişmiş ve Premium sesler dahil) ya da daha doğal bulut sesleri: **ElevenLabs**, **OpenAI uyumlu** servisler (kendi TTS sunucun da olur) ve **Azure Speech**. Hız, ses düzeyi, yeni cümlede öncekini kesme ve bulut sesi çalışmazsa macOS sesine geçme ayarlanabilir.
+- Dublaj oyunun orijinal sesinin üstüne gelir; en iyi sonuç için oyunun diyalog sesini kısıp altyazıları açık tut.
+- **Çok dilli arayüz:** uygulama Mac'in sistem dilinde açılır: Türkçe, English, Deutsch, Français, Español, Italiano, Português (Brasil), Русский, 日本語, 한국어 ve 简体中文. Desteklenmeyen dillerde İngilizce açılır. İlk kurulumda çeviri dili de sistem diline göre seçilir.
+- **Temalar:** isim plakası tarzında çizimli arka planlar: **Palmiye gün batımı**, **Neon şehir**, **Gece sahili** ve **Retro ızgara**. Sağ kenarda çizim, neon parlayan yazı ve parıldayan çerçeve; altyazıda, her ek bölgede ve ses balonunda seçilebilir (Oyun Profili › Arka plan… › Temalar). Ekranda ve OBS'te aynı görünür.
+- **Mikrofon çevirisi:** mikrofonunu seçip konuştuklarını istediğin dile çevirebilirsin (ör. yayında Türkçe konuşurken izleyiciler İngilizcesini görür). Ana penceredeki **Mikrofon çevirisi** anahtarıyla açılır; mikrofon, konuştuğun dil ve çeviri dili Ayarlar › Mikrofon çevirisi'nden seçilir.
+- Mikrofon çevirisi OBS'te kendi adresinde: `/mikrofon`; balonun görünümü ayrıca seçilir. Oyun çevirisi başlatılmamış olsa da çalışır.
+- Ayarlar › Mikrofon çevirisi'ndeki balon konuştukça canlı değişir: konuşurken tanınan yazı, ardından çevirisi görünür.
+- **Genel arka plan:** Ayarlar › Görünüm › **Hazır arka plan** ile hazır geçişler ve temalar tüm bölgelere varsayılan olarak verilebilir; Ayarlar › OBS / Yayın › **Kutu rengi**'nde de aynı seçenekler var.
+
 ## 1.6.0 — Her bölgeye ayrı OBS adresi, yazı tipi ve arka plan
 - **Her bölge OBS'te ayrı kaynak:** altyazı, her ek bölge ve ses çevirisinin kendi adresi var: `/altyazi`, `/bolge-1` … `/bolge-4`, `/ses`. Her birini OBS'te ayrı bir Tarayıcı kaynağı olarak ekleyip istediğin yere koyabilirsin.
 - **Adresler iki yerde:** Ayarlar › OBS / Yayın › **Yazıları OBS'te ayrı yerlere koy** altında ve Oyun Profili'nde bölge seçilince; her birinin yanında **Kopyala** düğmesi.

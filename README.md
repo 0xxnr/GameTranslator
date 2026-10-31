@@ -247,6 +247,22 @@ Altyazı, ek bölgeler (bildirim, görev, ipucu…) ve ses balonu artık birbiri
 - **Yazı tipi:** hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf / .otf dosyan; kalınlık ayrı seçilir. "Genel" seçili bölge Ayarlar'daki yazı tipini kullanır.
 - **Ayrı OBS kaynağı:** her bölgenin kendi adresi var (`/altyazi`, `/bolge-1` … `/bolge-4`, `/ses`). Ayrıntılar: [Yazıları ayrı yerlere koymak](#yazıları-ayrı-yerlere-koymak).
 - En fazla **4 ek bölge** eklenebilir.
+- **Temalar (1.7.0):** isim plakası tarzında çizimli arka planlar: **Palmiye gün batımı**, **Neon şehir**, **Gece sahili** ve **Retro ızgara**. Yazı neon parlar, çerçeve ışıldar.
+
+<a id="sesli-dublaj"></a>
+
+## Sesli dublaj ve mikrofon çevirisi
+
+**Sesli dublaj** (macOS, 1.7.0): çeviriler canlı olarak sesli okunur. Altyazılar, altyazısız NPC konuşmaları, ek bölgeler ve mikrofon çevirisi ayrı ayrı açılabilir.
+
+- **Ücretsiz:** macOS sesleri; internet gerekmez. Gelişmiş ve Premium sesler indirilirse daha doğal okur.
+- **Daha doğal bulut sesleri:** ElevenLabs, OpenAI uyumlu servisler (kendi ses sunucun da olur) ve Azure Speech. Anahtar Mac'in Anahtar Zinciri'nde saklanır.
+- Hız, ses düzeyi ve yeni cümle gelince öncekini kesme ayarlanabilir; bulut sesi çalışmazsa macOS sesine geçer.
+- Oyunun kendi sesi kapatılamaz; dublaj onun üstüne gelir. En iyi sonuç için oyunun diyalog sesini kıs, altyazıları açık tut.
+
+**Mikrofon çevirisi** (macOS, 1.7.0): mikrofonunu seç, konuştukların istediğin dile çevrilsin. Yayında kendi balonuyla `/mikrofon` adresinden OBS'e düşer; istersen sesli de okunur.
+
+**Çok dilli arayüz** (macOS, 1.7.0): uygulama Mac'in dilinde açılır: Türkçe, English, Deutsch, Français, Español, Italiano, Português (Brasil), Русский, 日本語, 한국어, 简体中文.
 
 ## Özellikler
 
@@ -256,9 +272,11 @@ Altyazı, ek bölgeler (bildirim, görev, ipucu…) ve ses balonu artık birbiri
 | **Oyun profilleri** | Altyazı + en fazla 4 ek bölge (bildirim, görev, ipucu) + ses çevirisi alanı. Her bölgenin yazı boyutu, [yazı tipi ve arka planı](#bolge-gorunumu) ayrı. |
 | **Okuma ayarları** | Büyütme (1×–3×), siyah-beyaz eşikleme, kontrast, güven eşiği, hassas OCR ve kararlılık. "OCR'a giden" görüntüyü canlı izlersin. |
 | **Sesli konuşma çevirisi** | Altyazısız diyalogları ve NPC sohbetlerini dinler, mor bir balonda çevirir. Konuşma tanıma cihazda çalışır. |
+| **[Sesli dublaj](#sesli-dublaj)** | Çevirileri canlı sesli okur: ücretsiz macOS sesleri ya da ElevenLabs, OpenAI uyumlu ve Azure bulut sesleri. (macOS) |
+| **Mikrofon çevirisi** | Konuştuklarını istediğin dile çevirir; OBS'te ayrı kaynak. (macOS) |
 | **[Dil paketleri](#dil-paketleri)** | Oyunun "orijinal → Türkçe" metinleriyle **internetsiz** çeviri. Oyun dosyalarından ya da tablodan otomatik oluşturulur, CSV ile elle de hazırlanır. |
 | **Yazı tipi** | Hazır yazı tipleri, Mac'indeki tüm yazı tipleri ya da kendi .ttf/.otf dosyan; kalınlık ayarı. Ekranda ve OBS'te aynı yazı tipi. |
-| **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Hazır geçişler: Mor cam, Neon gün batımı, Okyanus, Gece neonu. Her bölgeye ayrı seçilebilir. |
+| **Yazı arka planı** | Siyah, beyaz, şeffaf ya da istediğin renk; saydamlık ayarı ve canlı önizleme. Hazır geçişler: Mor cam, Neon gün batımı, Okyanus, Gece neonu; çizimli temalar: Palmiye gün batımı, Neon şehir, Gece sahili, Retro ızgara. Her bölgeye ayrı seçilebilir. |
 | **[OBS ile yayın](#obs-ile-yayın)** | Çeviriler yayına şeffaf arka planla düşer. Altyazı, her ek bölge ve ses çevirisi kendi adresiyle ayrı kaynak olarak ayrı yerlere konabilir; yazı tipi ve arka plan yayında da aynı. |
 | **Çeviri motorları** | Apple (çevrimdışı, ücretsiz), DeepL, Google, Azure, LLM (OpenAI, Ollama, LM Studio), Self-Hosted (LibreTranslate). |
 | **Genel kısayollar** | Oyun öndeyken de çalışır: ⌃⌥T başlat/durdur, ⌃⌥H yazıları gizle, ⌃⌥Y yalnızca yayında gizle (Windows'ta Ctrl+Alt+T / H / Y). |
